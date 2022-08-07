@@ -25,6 +25,7 @@
     <!-- (22.08.07) componet-scan 엘리먼트 사용
          component-scan 설정하면 스프링 설정 파일에 클래스를 일일이 bean 엘리먼트로 등록할 필요 없고, @Component 만 클래스 선언부에 설정하면 됨 -->
     <context:component-scan base-package="polymorphism"/>
-
+    <!-- @Autowired 로 지정한 의존대상에 의존관계 맺기 위한 bean 앨리먼트 추가 -->
+    <bean class="polymorphism.SonySpeaker"/>
 
 </beans>

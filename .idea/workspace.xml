@@ -9,8 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource">
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource (test)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/AppleSpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/AppleSpeaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/SonySpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/SonySpeaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +205,7 @@
       <updated>1659367260445</updated>
       <workItem from="1659367261971" duration="654000" />
       <workItem from="1659367940498" duration="19126000" />
-      <workItem from="1659884094822" duration="209000" />
+      <workItem from="1659884094822" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -294,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659884281878</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource (test)">
+      <created>1659884325347</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659884325347</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +336,8 @@
     <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Autowired" />
     <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Qualifier" />
     <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource" />
+    <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource (test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource (test)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
