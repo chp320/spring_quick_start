@@ -4,5 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <!--    <bean id="tv" class="polymorphism.SamsungTV" />-->
-    <bean id="tv" class="polymorphism.SamsungTV" init-method="initMethod" destroy-method="destroyMethod" scope="singleton"/>
+<!--    init-method, destroy-method 테스트 -->
+<!--    <bean id="tv" class="polymorphism.SamsungTV" init-method="initMethod" destroy-method="destroyMethod" scope="singleton"/>-->
+    <bean id="tv" class="polymorphism.SamsungTV" >
+        <constructor-arg ref="sony"></constructor-arg>
+    </bean>
+
+    <bean id="sony" class="polymorphism.SonySpeaker"></bean>
+
 </beans>

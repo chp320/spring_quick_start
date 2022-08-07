@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] class3 예제">
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/SonySpeaker.java" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] class4 의존성 관계 확인">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/ReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/SamsungTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/SamsungTV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/TVUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/TVUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659367260445</updated>
       <workItem from="1659367261971" duration="654000" />
-      <workItem from="1659367940498" duration="9988000" />
+      <workItem from="1659367940498" duration="10389000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659716211644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[스프링 퀵 스타트] class4 의존성 관계 확인">
+      <created>1659840382862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659840382862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +224,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="컨테이너 설정 파일 적용 중" />
     <MESSAGE value="[스프링 퀵 스타트] class3 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] class3 예제" />
+    <MESSAGE value="[스프링 퀵 스타트] class4 의존성 관계 확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] class4 의존성 관계 확인" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
