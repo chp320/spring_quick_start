@@ -3,6 +3,7 @@ package polymorphism;
 public class SamsungTV implements TV {
     // SonySpeaker 클래스를 사용하기 위한 객체 참조 변수 선언
     private SonySpeaker speaker;
+    private int price;
 
     // 초기화 작업 처리를 위한 init-method
     public void initMethod() {
@@ -26,8 +27,16 @@ public class SamsungTV implements TV {
         this.speaker = speaker;
     }
 
+    // 생성자 인젝션에서 초기화할 멤버변수가 여러 개인 경우 값을 한꺼번에 전달하기 위한 테스트
+    public SamsungTV(SonySpeaker speaker, int price) {
+        System.out.println("===> SamsungTV(3) 객체 생성");
+        this.speaker = speaker;
+        this.price = price;
+    }
+
     public void powerOn() {
-        System.out.println("SamsungTV---전원 켠다.");
+//        System.out.println("SamsungTV---전원 켠다.");
+        System.out.println("SamsungTV---전원 켠다. (가격 : " + price + ")");
     }
 
     public void powerOff() {
