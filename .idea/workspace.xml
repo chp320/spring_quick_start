@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 설정(List 타입 맵핑)">
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 ReadMe.txt 파일 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/ioc/injection/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/ioc/injection/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/LgTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/IdeaProjects/biz",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/src/main/resources",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -60,7 +61,12 @@
     "spring.configuration.checksum": "300a1a224385acfb318149b6498f746d"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectionBeanClient">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TVUser">
     <configuration name="CollectionBeanClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbook.ioc.injection.CollectionBeanClient" />
       <module name="biz" />
@@ -182,8 +188,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionBeanClient" />
         <item itemvalue="Application.TVUser" />
+        <item itemvalue="Application.CollectionBeanClient" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659367260445</updated>
       <workItem from="1659367261971" duration="654000" />
-      <workItem from="1659367940498" duration="14638000" />
+      <workItem from="1659367940498" duration="15450000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -254,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659856691478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 ReadMe.txt 파일 수정">
+      <created>1659856957267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659856957267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +293,8 @@
     <MESSAGE value="[스프링 퀵 스타트] class4 의존성 주입 - 생성자 인젝션 (의존관계 변경)" />
     <MESSAGE value="[스프링 퀵 스타트] class4 의존성 주입 - setter injection" />
     <MESSAGE value="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 설정(List 타입 맵핑)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 설정(List 타입 맵핑)" />
+    <MESSAGE value="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 ReadMe.txt 파일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 ReadMe.txt 파일 수정" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

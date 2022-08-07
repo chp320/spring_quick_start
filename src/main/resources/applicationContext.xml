@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
 <!--    <bean id="tv" class="polymorphism.SamsungTV" />-->
 <!--    init-method, destroy-method 테스트 -->
 <!--    <bean id="tv" class="polymorphism.SamsungTV" init-method="initMethod" destroy-method="destroyMethod" scope="singleton"/>-->
-    <bean id="tv" class="polymorphism.SamsungTV" >
+
+    <!-- component-scan 엘리먼트 사용으로 아래 bean 엘리먼트 항목 주석 처리 -->
+<!--    <bean id="tv" class="polymorphism.SamsungTV" >-->
         <!-- constructor-arg 엘리먼트의 속성 설정, ref: 인자로 전달될 데이터가 다른 객체인 경우, value: 고정된 문자열이나 정수 같은 기본형 데이터인 경우 사용 -->
 <!--        <constructor-arg ref="apple"></constructor-arg>-->
 <!--        <constructor-arg value="2700000"></constructor-arg>-->
         <!-- constructor injection이 아닌 setter injection을 이용하기 위해 constructor-arg 대신 property 앨리먼트 적용한다. -->
-        <property name="speaker" ref="apple"/>
-        <property name="price" value="2700000"/>
-    </bean>
-
+<!--        <property name="speaker" ref="apple"/>-->
+<!--        <property name="price" value="2700000"/>-->
+<!--    </bean>-->
+<!--
     <bean id="sony" class="polymorphism.SonySpeaker"></bean>
     <bean id="apple" class="polymorphism.AppleSpeaker"></bean>
+-->
+
+    <!-- (22.08.07) componet-scan 엘리먼트 사용
+         component-scan 설정하면 스프링 설정 파일에 클래스를 일일이 bean 엘리먼트로 등록할 필요 없고, @Component 만 클래스 선언부에 설정하면 됨 -->
+    <context:component-scan base-package="polymorphism"/>
+
 
 </beans>
