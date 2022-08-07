@@ -9,3 +9,14 @@
 ⎜  java.util.Map           ⎜        <map>        ⎜
 ⎜  java.util.Properties    ⎜        <props>      ⎜
 ⎣⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⏊⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎦
+
+1. List 타입 맵핑
+- 배열 객체나 java.util.List 타입의 컬렉션 객체
+
+2. Set 타입 맵핑
+- 중복 값을 허용하지 않는 집합 객체 사용 시 java.util.Set 컬렉션 사용
+- <set> 태그 사용
+
+3. Map 타입 맵핑
+- 특정 key로 데이터를 등록/사용 시 java.util.Map 컬렉션 사용
+- <map> 태그 사용
