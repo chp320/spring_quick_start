@@ -8,8 +8,11 @@
 <!--    <bean id="tv" class="polymorphism.SamsungTV" init-method="initMethod" destroy-method="destroyMethod" scope="singleton"/>-->
     <bean id="tv" class="polymorphism.SamsungTV" >
         <!-- constructor-arg 엘리먼트의 속성 설정, ref: 인자로 전달될 데이터가 다른 객체인 경우, value: 고정된 문자열이나 정수 같은 기본형 데이터인 경우 사용 -->
-        <constructor-arg ref="apple"></constructor-arg>
-        <constructor-arg value="2700000"></constructor-arg>
+<!--        <constructor-arg ref="apple"></constructor-arg>-->
+<!--        <constructor-arg value="2700000"></constructor-arg>-->
+        <!-- constructor injection이 아닌 setter injection을 이용하기 위해 constructor-arg 대신 property 앨리먼트 적용한다. -->
+        <property name="speaker" ref="apple"/>
+        <property name="price" value="2700000"/>
     </bean>
 
     <bean id="sony" class="polymorphism.SonySpeaker"></bean>

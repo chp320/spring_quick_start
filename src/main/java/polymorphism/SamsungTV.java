@@ -34,6 +34,18 @@ public class SamsungTV implements TV {
         this.price = price;
     }
 
+    // setter injection 테스트 위함. setter 메서드는 스프링 컨테이너가 자동 호출하며, <bean> 객체 생성 직후 호출됨.
+    // setter injection이 동작하려면 setter 메서드뿐만 아니라 기본 생성자도 반드시 필요함!
+    public void setSpeaker(Speaker speaker) {
+        System.out.println("===> setSpeaker() 호출");
+        this.speaker = speaker;
+    }
+
+    public void setPrice(int price) {
+        System.out.println("===> setPrice() 호출");
+        this.price = price;
+    }
+
     public void powerOn() {
 //        System.out.println("SamsungTV---전원 켠다.");
         System.out.println("SamsungTV---전원 켠다. (가격 : " + price + ")");
