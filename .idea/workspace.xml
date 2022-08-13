@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성">
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/Log4jAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
     </list>
@@ -65,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceClient">
+  <component name="RunManager" selected="Application.BoardServiceClient">
     <configuration name="BoardServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbook.biz.board.BoardServiceClient" />
       <module name="biz" />
@@ -215,8 +216,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserServiceClient" />
         <item itemvalue="Application.BoardServiceClient" />
+        <item itemvalue="Application.UserServiceClient" />
         <item itemvalue="Application.TVUser" />
         <item itemvalue="Application.CollectionBeanClient" />
       </list>
@@ -233,7 +234,7 @@
       <workItem from="1659367261971" duration="654000" />
       <workItem from="1659367940498" duration="19126000" />
       <workItem from="1659884094822" duration="2147000" />
-      <workItem from="1660307898643" duration="10689000" />
+      <workItem from="1660307898643" duration="11148000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -396,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660380796026</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가">
+      <created>1660380953498</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660380953498</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +444,8 @@
     <MESSAGE value="[스프링 퀵 스타트] class6 - 어노테이션으로 작성" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - ReadMe.txt AOP 작성" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성" />
+    <MESSAGE value="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
