@@ -30,4 +30,12 @@
 
     <!-- (22.08.13) Class06 실습 위한 component-scan 추가 -->
     <context:component-scan base-package="com.springbook.biz"/>
+
+    <!-- (22.08.13) Class07 실습 : UserServiceImpl, UserDAO 클래스 bean 등록 -->
+    <bean id="userService" class="com.springbook.biz.user.impl.UserServiceImpl">
+        <!-- UserServiceImpl에서 UserDAO 의존성 주입을 위한 property 설정 -->
+        <property name="userDAO" ref="userDAO"/>
+    </bean>
+    <bean id="userDAO" class="com.springbook.biz.user.impl.UserDAO"/>
+
 </beans>
