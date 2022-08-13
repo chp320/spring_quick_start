@@ -2,8 +2,6 @@ package com.springbook.biz.board.impl;
 
 import com.springbook.biz.board.BoardService;
 import com.springbook.biz.board.BoardVO;
-import com.springbook.biz.common.Log4jAdvice;
-import com.springbook.biz.common.LogAdvice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

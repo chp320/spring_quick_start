@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] day2, class1 - OOP한계 (LogAdvice-&gt;Log4jAdvice 수정으로 인한 side effect)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +230,7 @@
       <workItem from="1659367261971" duration="654000" />
       <workItem from="1659367940498" duration="19126000" />
       <workItem from="1659884094822" duration="2147000" />
-      <workItem from="1660307898643" duration="11319000" />
+      <workItem from="1660307898643" duration="11355000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -410,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660382352784</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)">
+      <created>1660382461803</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660382461803</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +456,8 @@
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - OOP한계 (LogAdvice-&gt;Log4jAdvice 수정으로 인한 side effect)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] day2, class1 - OOP한계 (LogAdvice-&gt;Log4jAdvice 수정으로 인한 side effect)" />
+    <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
