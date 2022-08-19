@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context-4.2.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop-4.2.xsd">
+    <!-- 불필요 location 주석 처리 | https://www.springframework.org/schema/context/spring-context.xsd -->
 
 <!--    <bean id="tv" class="polymorphism.SamsungTV" />-->
 <!--    init-method, destroy-method 테스트 -->
@@ -37,5 +45,27 @@
 <!--        <property name="userDAO" ref="userDAO"/>-->
 <!--    </bean>-->
 <!--    <bean id="userDAO" class="com.springbook.biz.user.impl.UserDAO"/>-->
+
+    <!-- (22.08.13) DAY02, Class01 | 네임스페이스 추가 및 AOP 설정 -->
+    <bean id="log" class="com.springbook.biz.common.LogAdvice"/>
+    <aop:config>
+        <aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>
+        <aop:pointcut id="getPointcut" expression="execution(* com.springbook.biz..*Impl.get*(..))"/>
+        <aop:aspect ref="log">
+<!--            <aop:before method="printLog" pointcut-ref="allPointcut"/>-->
+<!--            <aop:before method="printLog" pointcut-ref="getPointcut"/>-->
+            <!-- 어드바이스 동작 시점을 비즈니스 메서드 실행 후(after) 동작하도록 수정 -->
+            <aop:after method="printLog" pointcut-ref="getPointcut"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!-- (22.08.20) DAY02, Class 03 | 어드바이스 동작 시점 -->
+    <bean id="before" class="com.springbook.biz.common.BeforeAdvice"/>
+    <aop:config>
+        <aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>
+        <aop:aspect ref="before">
+            <aop:before method="beforeLog" pointcut-ref="allPointcut"/>
+        </aop:aspect>
+    </aop:config>
 
 </beans>
