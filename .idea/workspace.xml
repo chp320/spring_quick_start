@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-throwing)">
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/AroundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/AroundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/LogAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/LogAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +234,7 @@
       <workItem from="1659367261971" duration="654000" />
       <workItem from="1659367940498" duration="19126000" />
       <workItem from="1659884094822" duration="2147000" />
-      <workItem from="1660307898643" duration="20704000" />
+      <workItem from="1660307898643" duration="22292000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -481,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661023937082</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)">
+      <created>1661024315824</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1661024315824</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[스프링 퀵 스타트] class4 의존성 주입 - 컬렉션 객체 ReadMe.txt 파일 수정" />
     <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : component-scan 설정" />
     <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Autowired" />
     <MESSAGE value="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Qualifier" />
@@ -524,7 +530,8 @@
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-returning)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-throwing)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-throwing)" />
+    <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

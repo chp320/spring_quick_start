@@ -101,4 +101,7 @@
         </aop:aspect>
     </aop:config>
 
+    <!-- (22.08.20) DAY02, Class 05 | 어노테이션 기반 AOP 설정 -->
+    <aop:aspectj-autoproxy/>
+
 </beans>
