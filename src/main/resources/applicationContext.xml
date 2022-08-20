@@ -79,10 +79,16 @@
 
     <!-- (22.08.20) DAY02, Class 03 | after throwing 어드바이스 -->
     <bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice"/>
+    <!-- (22.08.20) DAY02, Class 03 | after 어드바이스 -->
+    <bean id="after" class="com.springbook.biz.common.AfterAdvice"/>
     <aop:config>
         <aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>
         <aop:aspect ref="afterThrowing">
             <aop:after-throwing method="exceptionLog" pointcut-ref="allPointcut"/>
+        </aop:aspect>
+
+        <aop:aspect ref="after">
+            <aop:after method="finallyLog" pointcut-ref="allPointcut"/>
         </aop:aspect>
     </aop:config>
 
