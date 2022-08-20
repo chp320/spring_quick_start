@@ -12,6 +12,7 @@ public class BeforeAdvice {
         String method = jp.getSignature().getName();
         Object[] args = jp.getArgs();
 
-        System.out.println("[사전 처리] 비즈니스 로직 수행 전 동작");
+//        System.out.println("[사전 처리] 비즈니스 로직 수행 전 동작");
+        System.out.println("[사전 처리] " + method + "() 메서드 ARGS 정보 : " + args[0].toString());
     }
 }
