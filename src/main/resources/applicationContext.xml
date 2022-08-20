@@ -92,4 +92,13 @@
         </aop:aspect>
     </aop:config>
 
+    <!-- (22.08.20) DAY02, Class 03 | Around 어드바이스 -->
+    <bean id="around" class="com.springbook.biz.common.AroundAdvice"/>
+    <aop:config>
+        <aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>
+        <aop:aspect ref="around">
+            <aop:around method="aroundLog" pointcut-ref="allPointcut"/>
+        </aop:aspect>
+    </aop:config>
+
 </beans>
