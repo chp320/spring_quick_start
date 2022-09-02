@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/inheritance/sec05_superKeywordsupermethod/EX04_SuperMethod_2/SuperMethod_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/inheritance/sec06_objectclass/EX01_ObjectMethod_toString/ObjectMethod_toString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +65,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SuperMethod_2">
-    <configuration name="OverlapInstanceField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.inheritance.sec04_overlapmember.EX01_OverlapInstanceField.OverlapInstanceField" />
+  <component name="RunManager" selected="Application.ObjectMethod_toString">
+    <configuration name="ObjectMethod_toString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.java.inheritance.sec06_objectclass.EX01_ObjectMethod_toString.ObjectMethod_toString" />
       <module name="biz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.java.inheritance.sec04_overlapmember.EX01_OverlapInstanceField.*" />
+          <option name="PATTERN" value="com.doit.java.inheritance.sec06_objectclass.EX01_ObjectMethod_toString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,7 +219,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OverlapInstanceField" />
+      <item itemvalue="Application.ObjectMethod_toString" />
       <item itemvalue="Application.SuperKeyword_2" />
       <item itemvalue="Application.SuperMethod_1" />
       <item itemvalue="Application.SuperMethod_1 (1)" />
@@ -228,11 +228,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectMethod_toString" />
         <item itemvalue="Application.SuperMethod_2" />
         <item itemvalue="Application.SuperMethod_1 (1)" />
         <item itemvalue="Application.SuperMethod_1" />
         <item itemvalue="Application.SuperKeyword_2" />
-        <item itemvalue="Application.OverlapInstanceField" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +248,7 @@
       <workItem from="1659367940498" duration="19126000" />
       <workItem from="1659884094822" duration="2147000" />
       <workItem from="1660307898643" duration="31798000" />
-      <workItem from="1661977173944" duration="3964000" />
+      <workItem from="1661977173944" duration="4712000" />
     </task>
     <task id="LOCAL-00001" summary="컨테이너 설정 파일 적용 중">
       <created>1659370961459</created>
@@ -579,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662156892766</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()">
+      <created>1662157767906</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1662157767906</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
