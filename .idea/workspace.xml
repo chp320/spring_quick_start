@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : abstract 키워드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/abstractclass_interface/sec01_abstractclass/EX01_AbstractClass_1/AbstractClass_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/abstractclass_interface/sec01_abstractclass/EX02_AbstractClass_2/AbstractClass_2.java" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/modifier2/sec02_abstractmodifier/EX01_AbstractModifier_1/AbstractModifier_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/modifier2/sec02_abstractmodifier/EX02_AbstractModifier_2/AbstractModifier_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractClass_2">
-    <configuration name="AbstractClass_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.abstractclass_interface.sec01_abstractclass.EX02_AbstractClass_2.AbstractClass_2" />
-      <module name="biz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.doit.java.abstractclass_interface.sec01_abstractclass.EX02_AbstractClass_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.AbstractModifier_2">
     <configuration name="AbstractModifier_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.doit.java.modifier2.sec02_abstractmodifier.EX01_AbstractModifier_1.AbstractModifier_1" />
       <module name="biz" />
@@ -99,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.doit.java.modifier2.sec02_abstractmodifier.EX02_AbstractModifier_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalModifier_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.java.modifier2.sec01_finalmodifier.EX02_FinalModifier_2.FinalModifier_2" />
+      <module name="biz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doit.java.modifier2.sec01_finalmodifier.EX02_FinalModifier_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,20 +220,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AbstractClass_2" />
       <item itemvalue="Application.AbstractModifier_1" />
       <item itemvalue="Application.AbstractModifier_2" />
+      <item itemvalue="Application.FinalModifier_2 (1)" />
       <item itemvalue="Application.FinalModifier_2 (2)" />
       <item itemvalue="Application.FinalModifier_2 (3)" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbstractClass_2" />
         <item itemvalue="Application.AbstractModifier_2" />
         <item itemvalue="Application.AbstractModifier_1" />
         <item itemvalue="Application.FinalModifier_2 (3)" />
         <item itemvalue="Application.FinalModifier_2 (2)" />
+        <item itemvalue="Application.FinalModifier_2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,8 +250,14 @@
       <workItem from="1659884094822" duration="2147000" />
       <workItem from="1660307898643" duration="31798000" />
       <workItem from="1661977173944" duration="6530000" />
-      <workItem from="1663019970734" duration="1510000" />
-      <workItem from="1663105443574" duration="2630000" />
+      <workItem from="1663019970734" duration="1499000" />
+    </task>
+    <task id="LOCAL-00002" summary="[스프링 퀵 스타트] class3 예제">
+      <created>1659716211644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659716211644</updated>
     </task>
     <task id="LOCAL-00003" summary="[스프링 퀵 스타트] class4 의존성 관계 확인">
       <created>1659840382862</created>
@@ -589,14 +595,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663021137577</updated>
     </task>
-    <task id="LOCAL-00051" summary="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : abstract 키워드">
-      <created>1663021727108</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1663021727108</updated>
-    </task>
-    <option name="localTasksCounter" value="52" />
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,6 +613,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="[스프링 퀵 스타트] day2, class1 - ReadMe.txt AOP 작성" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - OOP한계 (LogAdvice-&gt;Log4jAdvice 수정으로 인한 side effect)" />
@@ -638,8 +638,7 @@
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : Object" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드" />
-    <MESSAGE value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : abstract 키워드" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : abstract 키워드" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
