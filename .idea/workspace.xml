@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 추상 클래스">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/abstractclass_interface/sec02_interface/EX01_InterfaceCharacteristics/InterfaceCharacteristics.java" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/abstractclass_interface/sec02_interface/EX04_CreateObjectOfInterface_1/CreateObjectOfInterface_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/abstractclass_interface/sec02_interface/EX05_CreateObjectOfInterface_2/CreateObjectOfInterface_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceCharacteristics">
+  <component name="RunManager" selected="Application.CreateObjectOfInterface_2">
     <configuration name="AbstractModifier_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.doit.java.modifier2.sec02_abstractmodifier.EX01_AbstractModifier_1.AbstractModifier_1" />
       <module name="biz" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalModifier_2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.modifier2.sec01_finalmodifier.EX02_FinalModifier_2.FinalModifier_2" />
+    <configuration name="CreateObjectOfInterface_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.java.abstractclass_interface.sec02_interface.EX04_CreateObjectOfInterface_1.CreateObjectOfInterface_1" />
       <module name="biz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.java.modifier2.sec01_finalmodifier.EX02_FinalModifier_2.*" />
+          <option name="PATTERN" value="com.doit.java.abstractclass_interface.sec02_interface.EX04_CreateObjectOfInterface_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalModifier_2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.modifier2.sec01_finalmodifier.EX02_FinalModifier_2.FinalModifier_2" />
+    <configuration name="CreateObjectOfInterface_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.java.abstractclass_interface.sec02_interface.EX05_CreateObjectOfInterface_2.CreateObjectOfInterface_2" />
       <module name="biz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.java.modifier2.sec01_finalmodifier.EX02_FinalModifier_2.*" />
+          <option name="PATTERN" value="com.doit.java.abstractclass_interface.sec02_interface.EX05_CreateObjectOfInterface_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,20 +220,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CreateObjectOfInterface_1" />
+      <item itemvalue="Application.CreateObjectOfInterface_2" />
       <item itemvalue="Application.InterfaceCharacteristics" />
       <item itemvalue="Application.AbstractModifier_1" />
       <item itemvalue="Application.AbstractModifier_2" />
-      <item itemvalue="Application.FinalModifier_2 (2)" />
-      <item itemvalue="Application.FinalModifier_2 (3)" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateObjectOfInterface_2" />
+        <item itemvalue="Application.CreateObjectOfInterface_1" />
         <item itemvalue="Application.InterfaceCharacteristics" />
         <item itemvalue="Application.AbstractModifier_2" />
         <item itemvalue="Application.AbstractModifier_1" />
-        <item itemvalue="Application.FinalModifier_2 (3)" />
-        <item itemvalue="Application.FinalModifier_2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,14 +251,7 @@
       <workItem from="1660307898643" duration="31798000" />
       <workItem from="1661977173944" duration="6530000" />
       <workItem from="1663019970734" duration="1499000" />
-      <workItem from="1663593853385" duration="313000" />
-    </task>
-    <task id="LOCAL-00003" summary="[스프링 퀵 스타트] class4 의존성 관계 확인">
-      <created>1659840382862</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659840382862</updated>
+      <workItem from="1663593853385" duration="1062000" />
     </task>
     <task id="LOCAL-00004" summary="[스프링 퀵 스타트] class4 의존성 주입 - 생성자 인젝션">
       <created>1659840768301</created>
@@ -595,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663593065963</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성">
+      <created>1663594225505</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663594225505</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - BoardServiceImpl 모든 메서드에 LogAdvice 호출 로직 추가" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - OOP한계 (LogAdvice-&gt;Log4jAdvice 수정으로 인한 side effect)" />
     <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)" />
@@ -638,7 +638,8 @@
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : Object" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 추상 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 추상 클래스" />
+    <MESSAGE value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
