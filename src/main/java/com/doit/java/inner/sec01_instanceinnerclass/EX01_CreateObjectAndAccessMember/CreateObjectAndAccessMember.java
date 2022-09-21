@@ -33,7 +33,7 @@ public class CreateObjectAndAccessMember {
         A a = new A();
 
         // 멤버 사용
-        A.B b = a.new B();
+        A.B b = a.new B();          // 이너 클래스 객체의 자료형은 A.B 이다.
         b.bcd();
     }
 }
