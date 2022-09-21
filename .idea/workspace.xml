@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 13장.이너 클래스와 이너 인터페이스 : 지역 이너 클래스">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/inner/sec04_anonymousclass/EX01_AnonymousClass_1/AnonymousClass_1.java" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/doit/java/inner/sec04_anonymousclass/EX02_AnonymousClass_2/AnonymousClass_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <recent name="com.doit.java.inner.sec03_localinnerclass.EX01_AccessMemberAndLocalVariable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnonymousClass_1">
+  <component name="RunManager" selected="Application.AnonymousClass_2">
     <configuration name="AnonymousClass_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.doit.java.inner.sec04_anonymousclass.EX01_AnonymousClass_1.AnonymousClass_1" />
       <module name="biz" />
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateObjectAndAccessMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.inner.sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember.CreateObjectAndAccessMember" />
+    <configuration name="AnonymousClass_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.java.inner.sec04_anonymousclass.EX02_AnonymousClass_2.AnonymousClass_2" />
       <module name="biz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.java.inner.sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember.*" />
+          <option name="PATTERN" value="com.doit.java.inner.sec04_anonymousclass.EX02_AnonymousClass_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateObjectOfInterface_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.abstractclass_interface.sec02_interface.EX05_CreateObjectOfInterface_2.CreateObjectOfInterface_2" />
+    <configuration name="CreateObjectAndAccessMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.java.inner.sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember.CreateObjectAndAccessMember" />
       <module name="biz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.java.abstractclass_interface.sec02_interface.EX05_CreateObjectOfInterface_2.*" />
+          <option name="PATTERN" value="com.doit.java.inner.sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +223,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.AnonymousClass_1" />
+      <item itemvalue="Application.AnonymousClass_2" />
       <item itemvalue="Application.CreateObjectAndAccessMember" />
-      <item itemvalue="Application.CreateObjectOfInterface_2" />
       <item itemvalue="Application.DefaultMethod_1" />
       <item itemvalue="Application.UseMembersOfOuterClass" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousClass_2" />
         <item itemvalue="Application.AnonymousClass_1" />
         <item itemvalue="Application.UseMembersOfOuterClass" />
         <item itemvalue="Application.CreateObjectAndAccessMember" />
         <item itemvalue="Application.DefaultMethod_1" />
-        <item itemvalue="Application.CreateObjectOfInterface_2" />
       </list>
     </recent_temporary>
   </component>
@@ -253,14 +253,7 @@
       <workItem from="1660307898643" duration="31798000" />
       <workItem from="1661977173944" duration="6530000" />
       <workItem from="1663019970734" duration="1499000" />
-      <workItem from="1663593853385" duration="6640000" />
-    </task>
-    <task id="LOCAL-00012" summary="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Qualifier">
-      <created>1659883299512</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1659883299512</updated>
+      <workItem from="1663593853385" duration="6840000" />
     </task>
     <task id="LOCAL-00013" summary="[스프링 퀵 스타트] class5 어노테이션 기반 설정 : @Resource">
       <created>1659884281878</created>
@@ -598,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663774879821</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스">
+      <created>1663775123194</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1663775123194</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class03 - before 어드바이스 예제" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class03 - afterReturning 어드바이스 예제" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class03 - afterThrowing 어드바이스 예제" />
@@ -641,7 +640,8 @@
     <MESSAGE value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 13장.이너 클래스와 이너 인터페이스 : 인스턴스 멤버 이너 클래스" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 13장.이너 클래스와 이너 인터페이스 : 지역 이너 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Do it] 자바 완전 정복 - 13장.이너 클래스와 이너 인터페이스 : 지역 이너 클래스" />
+    <MESSAGE value="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
