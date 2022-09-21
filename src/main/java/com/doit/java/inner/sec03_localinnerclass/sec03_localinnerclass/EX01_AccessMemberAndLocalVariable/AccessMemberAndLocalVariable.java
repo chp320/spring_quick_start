@@ -1,4 +1,4 @@
-package com.doit.java.inner.sec01_instanceinnerclass.sec03_localinnerclass.EX01_AccessMemberAndLocalVariable;
+package com.doit.java.inner.sec03_localinnerclass.sec03_localinnerclass.EX01_AccessMemberAndLocalVariable;
 
 /** 지역 이너 클래스 내부에서 외부 멤버 및 메서드 지역변수 활용 */
 
