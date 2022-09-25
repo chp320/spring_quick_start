@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>label태그와 for속성</title>
+</head>
+<body>
+  <!-- label태그에서 for속성은 input과 label을 연결한다. -->
+  <!-- input과 label이 연결되어 있는 경우, label을 클릭하면 자동으로 연결된 input이 활성화된다. -->
+  <!-- label의 for와 input의 id 이름이 같아야 연결된다. -->
+
+  <form>
+    <!-- 방법 1 -->
+    <label>이름 <input type="text" name="name"></label> <br><br>
+
+    <!-- 방법 2 -->
+    <label for="myName">이름</label>
+    <input type="text" name="name" id="myName">
+  </form>
+</body>
+</html>
