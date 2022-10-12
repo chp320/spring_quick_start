@@ -10,11 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] HTML5 study">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/ex01_26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/ex01_27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/ex01_28.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/ex01_29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/ex01_30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/exercise/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter01/exercise/member.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,14 +257,7 @@
       <workItem from="1661977173944" duration="6530000" />
       <workItem from="1663019970734" duration="1499000" />
       <workItem from="1663593853385" duration="9625000" />
-      <workItem from="1665583518940" duration="4497000" />
-    </task>
-    <task id="LOCAL-00017" summary="[스프링 퀵 스타트] class6 - JDBC 접속 URL 수정 (tcp추가)">
-      <created>1660347017380</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1660347017380</updated>
+      <workItem from="1665583518940" duration="5802000" />
     </task>
     <task id="LOCAL-00018" summary="[스프링 퀵 스타트] class6 - Buisiness Layer 작성">
       <created>1660347047697</created>
@@ -605,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664118409647</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="[한권자바] HTML5 study">
+      <created>1665588726073</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1665588726074</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
