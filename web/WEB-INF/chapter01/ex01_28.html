@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5의 추가된 태그</title>
+</head>
+<body>
+  <!-- 특정 텍스트의 강조 효과를 형광펜으로 칠한 것과 같은 효과 -->
+  <mark>Mickey Mouse</mark>
+  <!-- 사용자 요청에 따라 얻은 컨트롤이나 추가적인 정보 표시. ▶︎ 클릭 시 하단 리스트 노출.. -->
+  <details>
+    <!-- details 요소의 하위요소로 머리글을 나타냄. summary 미 적용 시 default로 '세부정보' 텍스트 노출 -->
+    <summary>이미지 정보</summary>
+    <ul>
+      <li>파일: mouse.jpg</li>
+      <li>크기: 36KB</li>
+      <li>위치: D:\image</li>
+      <!-- a 태그의 download 속성 추가하면 실제 다운로드 수행! -->
+      <li><a href="image/mouse.png" download>파일 다운로드</a> </li>
+    </ul>
+  </details><br>
+
+  <!-- 한자, 일본어 등 아시아권 언어의 발음이나 주석을 표시하기 위한 텍스트 -->
+  <ruby>
+    <rtc>大韓民國</rtc>
+    <rt>대한민국</rt>
+  </ruby><br><br>
+
+  <!-- 디스크 사용량 등과 같은 측정치 표시하는 태그 -->
+  <meter value="0.75">75%</meter><br><br>
+  <!-- 다운로드 시 얼마나 진행되었는지 표시하는 태그 -->
+  <progress value="30" max="100">Progress: 10%</progress><br><br>
+
+  <!-- 단축 메뉴 등을 목록화 -->
+  <menu label="커피종류">
+    <li style="list-style: none;"><input type="radio" name="tea">아메리카노</li>
+    <li style="list-style: none;"><input type="radio" name="tea">카페라떼</li>
+    <li style="list-style: none;"><input type="radio" name="tea">콜드브루</li>
+  </menu>
+</body>
+</html>
