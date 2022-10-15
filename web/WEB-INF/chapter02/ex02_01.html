@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>모든 태그(*)에 글꼴 적용</title>
+    <!-- 선택자(Selector)
+        특정 태그나 요소를 지칭한다.
+        지정한 선택자에 사용자가 의도하는 디자인을 적용한다.
+        기본적인 CSS3 선택자 : 전체 선택자(Universal Selector), 타입 선택자(Type Selector),
+                           아이디 선택자(ID Selector), 클래스 선택자(Class Selector), 속성 선택자(Attribute Selector)
+    -->
+    <!-- 잠깐!
+        아이디 선택자 vs 클래스 선택자 ???
+        - 아이디(ID)는 '유일'한 요소에 스타일 적용. 상단 메뉴바, 하단 정보, 홈페이지 로고 등 유일한 것들 선택 시에만 사용!
+            => 문서 안에서 "단 하나의 요소"에 스타일 적용하는 경우 사용
+        - 클래스(Class)는 '복수' 요소에 스타일 적용.
+            => 문서 안에서 "여러 요소"에 스타일 적용하는 경우 사용
+    -->
+    <style>
+      *{
+        font-family: "Comic Sans MS" ;
+        color: green;
+       }
+    </style>
+</head>
+<body>
+  <h1>Web Programming</h1>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</body>
+</html>

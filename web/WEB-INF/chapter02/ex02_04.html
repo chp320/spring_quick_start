@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class가 t2인 요소에만 스타일 적용</title>
+    <!-- 클래스 선택자(Class Selector)는 특정 class 속성값으로 가지고 있는 태그를 선택한다. class 속성값 앞에 .(점)을 붙혀서 클래스 선택자임을 나타낸다. -->
+    <!-- (형식)
+        .클래스명{속성: 값;}
+        태그명.클래스명{속성: 값;}
+    -->
+    <!-- 클래스 선택자 앞에 '태그명'이 있으면 해당 태그 중에서 선택해서 스타일을 적용한다! -->
+    <style>
+      .t2{
+        font-weight: bold;
+        color: green;
+      }
+    </style>
+</head>
+<body>
+  <p class="t2">Have a nice day!</p>
+  <span class="t2">좋은 하루 되세요!</span>
+</body>
+</html>
