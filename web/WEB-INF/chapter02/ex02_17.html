@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>리스트 스타일로 목록 만들기</title>
+
+  <style>
+    ol{
+      list-style-type: upper-alpha; /* none | disc | circle | square | decimal | lower-alpha | upper-alpha | lower-roman | upper-roman, 기본은 decimal */
+      list-style-position: inside;  /* outside | inside | inherit */
+    }
+    ul{
+      list-style-image: url("image/icon.png");
+      /*list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/Sign-check-icon.png?20200929115132");*/
+    }
+  </style>
+</head>
+<body>
+  <!-- 리스트 스타일 속성 : ol, ul 요소에 스타일을 설정하는 속성. 한계가 있어 많이 사용되지 않음 -->
+  <h2>가지고 있는 물건</h2>
+  <ul>
+    <li>시계</li>
+    <li>가방</li>
+    <li>핸드폰</li>
+  </ul>
+
+  <h2>가지고 싶은 물건</h2>
+  <ol>
+    <li>타블렛</li>
+    <li>명품가방</li>
+    <li>보석</li>
+  </ol>
+</body>
+</html>

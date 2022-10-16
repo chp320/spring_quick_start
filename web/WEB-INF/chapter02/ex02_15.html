@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문단 스타일로 문자 꾸미기</title>
+
+    <!-- CSS에서 사용하는 폰트, 길이, 두께의 단위 : 절대 크기/상대 크기
+         => 절대 크기: 고정된 크기. 장치에 따라 크기 조정 불가 (ex. medium, large, small)
+         => 상대 크기: 장치에 따라 크기 조정 가능 (ex. %, px, larger, smaller)
+    -->
+    <style>
+        /* 태그 선택자 */
+        div{ height: 30px; border: 1px dotted #d5d5d5; }
+        /* 클래스 선택자 */
+        div.a{ text-transform: capitalize; }    /* 단어의 첫 글자를 대문자로 표현 */
+        div.b{ text-align: right; } /* 문단 정렬 : 오른쪽 */
+        div.c{
+            text-decoration: underline overline;
+            text-decoration-color: red;
+            text-decoration-style: dotted;
+        }   /* 문자열의 위/아래쪽에 줄을 출력 - 빨간색, 점(dotted)으로.. */
+        div.d{ text-indent: 50px; }     /* 문단 들여쓰기 - 50px 로..  */
+        div.e{ letter-spacing: 10px; }  /* 글자 간격 조절 - 20px 로... */
+        div.f{ word-spacing: 30px; }    /* 단어 간격 조절 - 30px 로... */
+    </style>
+</head>
+<body>
+    <div class="a">text-transform: capitalize</div>
+    <div class="b">text-align: right</div>
+    <div class="c">text-decoration color style</div>
+    <div class="d">text-indent: 50px</div>
+    <div class="e">letter-spacing: 20px</div>
+    <div class="f">vertical align middle</div>
+</body>
+</html>

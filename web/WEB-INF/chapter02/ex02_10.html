@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>형제 선택자와 인접 형제 선택자의 이해</title>
+
+    <!-- 정의: 형제 선택자(Sibling Selector)는 특정 택의 형제 태그를 선택한다.
+         (형식)
+         선택자 ~ 선택자{속성: 값;}
+         => 선택자A~선택자B 인 경우, 선택자A 이후 나오는 "모든" 선택자B를 선택
+    -->
+    <!-- 정의: 인접 형제 선택자(Adjacent Sibling Selector)는 특정 태그의 형제 태그 중 첫 번째 태그를 선택한다.
+         (형식)
+         선택자 + 선택자{속성: 값;}
+         => 선택자A + 선택자B 인 경우, 선택자A 이후 나오는 "첫 번째" 선택자B만 선택
+    -->
+    <style>
+      /* 인접 형제 선택자 */
+      h1+h2{ color: red; }
+      /* 형제 선택자 */
+      h1~h2{ background-color: yellow; }
+    </style>
+</head>
+<body>
+  <h1>Have a nice day!</h1>
+  <h2>Have a nice day!</h2>
+  <h2>Have a nice day!</h2>
+  <h3>Have a nice day!</h3>
+  <h2>Have a nice day!</h2>
+</body>
+</html>
