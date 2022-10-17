@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지 갤러리 만들기</title>
+
+    <style>
+      div.gallery{
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+      div.gallery:hover{
+        border: 1px solid #777;
+        opacity: 0.3;
+      }
+      div.gallery img{
+        width: 100%;
+        height: 150px;
+      }
+      div.desc{
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+  <div class="gallery">
+    <a href="image/evening_glow.png" target="_blank">
+      <img src="image/evening_glow.png" alt="evening glow" width="300" height="200">
+    </a>
+    <div class="desc">Evening Glow</div>
+  </div>
+
+  <div class="gallery">
+    <a href="image/lake_side.png" target="_blank">
+      <img src="image/lake_side.png" alt="lake side" width="300" height="200">
+    </a>
+    <div class="desc">Lake Side</div>
+  </div>
+
+  <div class="gallery">
+    <a href="image/southern_sea.png" target="_blank">
+      <img src="image/southern_sea.png" alt="soutern sea" width="300" height="200">
+    </a>
+    <div class="desc">Soutern Sea</div>
+  </div>
+
+  <div class="gallery">
+    <a href="image/coast_road.png" target="_blank">
+      <img src="image/coast_road.png" alt="coast road" width="300" height="200">
+    </a>
+    <div class="desc">Coast Road</div>
+  </div>
+</body>
+</html>

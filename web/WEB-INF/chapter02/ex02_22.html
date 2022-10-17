@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>그림자 만들기</title>
+
+    <!-- 이미지나 텍스트에 그림자(shadow) 효과를 주고 싶을 때, CSS3의 text-shadow 속성 또는 box-shadow 속성을 사용 -->
+    <!-- (형식)
+         text-shadow: h-shadow v-shadow blur-radius spread-distance color;
+         box-shadow: h-shadow v-shadow blur-radius spread-distance color;
+    -->
+    <style>
+      .shadow1{ text-shadow: 2px 2px; }
+      .shadow2{ text-shadow: 2px 2px 10px; }
+      .shadow3{ text-shadow: 0 0 3px red; }
+      .shadow4{ text-shadow: 2px 2px green; }
+      .shadow5{ color: white; text-shadow: 1px 1px 2px black, 0 0 20px purple, 0 0 5px maroon; }
+    </style>
+</head>
+<body>
+  <div class="shadow1">Black Shadow Effect</div><br>
+  <div class="shadow2">Cloudy Shadow Effect</div><br>
+  <div class="shadow3">Neon Effect</div><br>
+  <div class="shadow4">Color Shadow Effect</div><br>
+  <div class="shadow5">Shadow Overlay Effect</div><br>
+</body>
+</html>
