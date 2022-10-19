@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position으로 요소의 위치 설정</title>
+
+    <style>
+      /* 자식 선택자(Child Selector) */
+      body > div{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        height: 300px;
+        width: 300px;
+        border: 1px dotted black;
+        overflow: hidden; /* 콘텐츠 내용이 박스 범위를 초과하면 오버하는 내용은 숨긴다 */
+      }
+      /* 클래스 선택자 (Class Selector) */
+      .box{
+        width: 100px; height: 100px;
+        position: absolute; /* div 태그 안에서 절대좌표(absolute)로 배치한다. */
+      }
+      .box:nth-child(1){
+        background-color: red;
+        /* top: 0px; left: 0px 위치에 width: 100px; height: 100px; 크기의 박스를 위치시킴 */
+      }
+      .box:nth-child(2){
+        top: 100px; left: 100px;  /* 1번째 자식 box에서 100px, 100px 이동한 위치에 박스를 위치시킴 */
+        background-color: green;
+      }
+      .box:nth-child(3){
+        top: 200px; left: 200px;
+        background-color: blue;
+      }
+    </style>
+</head>
+<body>
+  <div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+</html>

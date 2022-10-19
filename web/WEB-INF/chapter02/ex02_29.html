@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>overflow 속성</title>
+
+    <style>
+      #visible, #hidden, #scroll, #auto{
+        width: 400px;
+        height: 150px;
+        background-color: #FAF4C0;
+        border: 1px solid black;
+        margin-bottom: 100px;
+      }
+      #visible{ overflow: visible; }
+      #hidden{ overflow: hidden; }
+      #scroll{ overflow: scroll; }
+      #auto{ overflow: auto; }
+    </style>
+</head>
+<body>
+  <div id="visible">
+    <!-- 콘텐츠 내용이 박스 범위를 초과하면 오버해서 출력함 -->
+    <h2>1.overflow:visible</h2>
+    When Alice follows the White Rabbit down a rabbit hole, she finds herself in a land where she can change her size. She meets a Duchess whit a pig for a baby, a Cook that throws spoons, a wise but mad Cheshire cat, the March Hare, Mad Hatter and a Dormouse. A Catepillar shows her how to adjust her height by eating from the right and left sides of a mushroom. With that knowlege.
+  </div>
+
+  <div id="hidden">
+    <!-- 콘텐츠의 내용이 박스 범위를 초과하면 "오버하는 내용은 숨겨진다. -->
+    <h2>2.overflow:hidden</h2>
+    When Alice follows the White Rabbit down a rabbit hole, she finds herself in a land where she can change her size. She meets a Duchess whit a pig for a baby, a Cook that throws spoons, a wise but mad Cheshire cat, the March Hare, Mad Hatter and a Dormouse. A Catepillar shows her how to adjust her height by eating from the right and left sides of a mushroom. With that knowlege.
+  </div>
+
+  <div id="scroll">
+    <!-- 콘텐츠의 내용과 상관없이 처음부터 스크롤 생성 -->
+    <h2>3.overflow:scroll</h2>
+    When Alice follows the White Rabbit down a rabbit hole, she finds herself in a land where she can change her size. She meets a Duchess whit a pig for a baby, a Cook that throws spoons, a wise but mad Cheshire cat, the March Hare, Mad Hatter and a Dormouse. A Catepillar shows her how to adjust her height by eating from the right and left sides of a mushroom. With that knowlege.
+  </div>
+
+  <div id="auto">
+    <!-- 콘텐츠의 내용이 박스 범위를 초과하면 스크롤이 자동으로 생성 -->
+    <h2>4.overflow:auto</h2>
+    When Alice follows the White Rabbit down a rabbit hole, she finds herself in a land where she can change her size. She meets a Duchess whit a pig for a baby, a Cook that throws spoons, a wise but mad Cheshire cat, the March Hare, Mad Hatter and a Dormouse. A Catepillar shows her how to adjust her height by eating from the right and left sides of a mushroom. With that knowlege.
+  </div>
+</body>
+</html>

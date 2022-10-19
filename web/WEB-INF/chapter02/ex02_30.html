@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>블록과 인라인의 종류</title>
+    <!-- 1. HTML에는 <div> <h>와 같은 "블록 요소"와 <span> <a>와 같은 "인라인 요소"가 존재
+         2. 블록, 인라인 요소는 각각 display 속성을 가지며, inline 또는 block으로 변경 가능
+         3. 블록, 인라인 요소는 각각 visibility 속성을 가지며, visible 또는 hidden 으로 변경 가능
+         => display: none // 메모리 자체에 미존재
+         => visibility: hidden // 메모리에 존재하지만 화면에 미노출
+    -->
+    <style>
+      span{
+        width: 100px;
+        height: 100px;
+        /*display: none;*/
+        display: inline;
+      }
+      #x{
+        background-color: #FFE400;
+      }
+      #y{
+        background-color: #B5B2FF;
+      }
+      #z{
+        background-color: #D9418C;
+      }
+    </style>
+</head>
+<body>
+  웹 표준은 <span id="x">HTML</span>구조,
+  <span id="y">CSS</span>디자인,
+  <span id="z">JavaScript</span>동작이 있습니다.
+</body>
+</html>

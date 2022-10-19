@@ -9,18 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_28.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/coast_road.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/evening_glow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/lake_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/southern_sea.png" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study - navigation, dropdown 적용">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_32.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_33.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_34.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_35.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/ex02_36.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/americano.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/cafelatte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter02/image/house.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,14 +272,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="3680000" />
-    </task>
-    <task id="LOCAL-00022" summary="[스프링 퀵 스타트] day2, class1 - ReadMe.txt AOP 작성">
-      <created>1660380670480</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1660380670480</updated>
+      <workItem from="1666017553526" duration="9697000" />
     </task>
     <task id="LOCAL-00023" summary="[스프링 퀵 스타트] day2, class1 - 공통으로 처리할 로직 LogAdvice 작성">
       <created>1660380796026</created>
@@ -617,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665932311043</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="[한권자바] CSS3 study - navigation, dropdown 적용">
+      <created>1666021357912</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1666021357912</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[스프링 퀵 스타트] DAY02, Class03 - afterThrowing 어드바이스 예제" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class03 - after 어드바이스 예제" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class03 - around 어드바이스 예제 (BoardServiceImpl 내 after throwing 테스트 로직 삭제)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제" />
@@ -660,7 +659,8 @@
     <MESSAGE value="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스" />
     <MESSAGE value="[한권자바] HTML5 study" />
     <MESSAGE value="[한권자바] CSS3 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study" />
+    <MESSAGE value="[한권자바] CSS3 study - navigation, dropdown 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study - navigation, dropdown 적용" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
