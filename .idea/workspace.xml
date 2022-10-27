@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study - 실습2 Home화면 만들기">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/image/namgaram1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/excercise02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/index.html" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/project2/image/namgaram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/project2/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +25,8 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/web/WEB-INF/excercise02/image",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/web/WEB-INF/excercise02/project2/image",
     "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
@@ -66,11 +67,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/project2/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02/image" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/project1" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02/image" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -265,21 +268,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="16301000" />
-    </task>
-    <task id="LOCAL-00026" summary="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)">
-      <created>1660382461803</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1660382461803</updated>
-    </task>
-    <task id="LOCAL-00027" summary="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)">
-      <created>1660382500335</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1660382500335</updated>
+      <workItem from="1666017553526" duration="17905000" />
     </task>
     <task id="LOCAL-00028" summary="[스프링 퀵 스타트] DAY02, Class03 - before 어드바이스 예제">
       <created>1660922789852</created>
@@ -610,7 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666873695861</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기 (이미지추가)">
+      <created>1666873742575</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1666873742575</updated>
+    </task>
+    <task id="LOCAL-00076" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)">
+      <created>1666873818224</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1666873818224</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,8 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-returning)" />
-    <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-throwing)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class05 - 어노테이션 기반 AOP 설정" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 예제" />
@@ -653,7 +654,9 @@
     <MESSAGE value="[한권자바] CSS3 study - 레이아웃 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 반응형 레이아웃 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study - 실습2 Home화면 만들기" />
+    <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기 (이미지추가)" />
+    <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
