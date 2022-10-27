@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>기타 내장 함수</title>
+    <script>
+      function plusfunc() {
+        var a = parseInt(frm.a.value) ; // name = a 의 값을 가져옴 (value)
+        var b = parseInt(frm.b.value) ; // name = b 의 값을 가져옴 (value)
+
+        // 숫자인지 아닌지 확인. a, b 둘 중 하나라도 숫자가 아닌 경우!
+        if(isNaN(a) || isNaN(b)) {
+          alert("a값 또는 b값은 숫자가 아닙니다.") ;
+          frm.a.value = "" ;
+          frm.b.value = "" ;
+          frm.a.focus() ;
+          return ;
+        }
+        frm.rs.value = a + b ;
+      }
+      function divifunc() {
+        var a = Number(frm.a.value) ;
+        var b = Number(frm.b.value) ;
+        rs = a / b ;
+
+        if(isFinite(rs) == false) {
+          alert("0으로 나눌 수 없습니다.") ;
+          frm.a.value = "" ;
+          frm.b.value = "" ;
+          frm.a.focus() ;
+          return ;
+        }
+        frm.rs.value = rs ;
+      }
+    </script>
+</head>
+<body>
+  <form name="frm">
+    A값: <input type="text" size="7" name="a">&nbsp;&nbsp;
+    B값: <input type="text" size="7" name="b">&nbsp;&nbsp;
+    결과: <input type="text" size="7" name="rs">
+    <input type="button" name="+" value="더하기" onclick="plusfunc()">
+    <input type="button" name="/" value="나누기" onclick="divifunc()">
+  </form>
+</body>
+</html>
