@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study - 반응형 레이아웃 적용">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/image/namgaram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/image/namgaram2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/image/namgaram3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study - 실습2 Home화면 만들기">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/image/namgaram1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/excercise02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/excercise02/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,14 +265,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="16238000" />
-    </task>
-    <task id="LOCAL-00025" summary="[스프링 퀵 스타트] day2, class1 - OOP한계 (LogAdvice-&gt;Log4jAdvice 수정으로 인한 side effect)">
-      <created>1660382352784</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1660382352784</updated>
+      <workItem from="1666017553526" duration="16301000" />
     </task>
     <task id="LOCAL-00026" summary="[스프링 퀵 스타트] day2, class1 - 공통기능(log) 제거(원복)">
       <created>1660382461803</created>
@@ -614,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666200995933</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기">
+      <created>1666873695860</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1666873695861</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-returning)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-throwing)" />
     <MESSAGE value="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)" />
@@ -657,7 +652,8 @@
     <MESSAGE value="[한권자바] CSS3 study - navigation, dropdown 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 레이아웃 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 반응형 레이아웃 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study - 반응형 레이아웃 적용" />
+    <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study - 실습2 Home화면 만들기" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
