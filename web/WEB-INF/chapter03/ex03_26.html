@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문자열을 다루는 String 객체</title>
+    <script>
+      var data = new String("JavaScript Test") ;
+      document.write("원본: " + data + "<br>") ;
+
+      // 문자열 길이
+      document.write(data.length + "<br>") ;
+      // 소문자로 변경
+      document.write(data.toLowerCase() + "<br>") ;
+      // 굵게 설정
+      document.write(data.bold() + "<br>") ;
+      // 깜빡이게 설정
+      document.write(data.blink() + "<br>") ; // 어? 안 먹는데??
+      // 링크 설정 (<a href=""> 와 같은 효과
+      document.write("남가람북스".link('http://www.namgarambooks.co.kr') + "<br><br>") ;
+      // n번째 위치의 문자를 반환
+      document.write(data.charAt(0) + "<br>") ;
+      // 0번째부터 시작해서 최초로 만나는 "찾을문자"의 위치 반환
+      document.write(data.indexOf("S") + "<br>") ;
+      // substring(n1, n2) : n1 ~ (n2-1) 사이의 문자열 반환
+      document.write(data.substring(1, 3) + "<br>") ;
+      // replace(s1, s2) : s1을 s2로 치환
+      document.write(data.replace("Test", "Sample") + "<br>") ;
+    </script>
+</head>
+<body>
+<h1>표준객체</h1>
+<ul>
+  <li>JavaScript에서 자주 사용하는 Number, String, Array, Date, Math 등 내장 객체를 의미</li>
+</ul>
+
+<h2>String 객체</h2>
+형식 <br>
+(객체형) var 변수명 = new String("문자열") ;<br>
+(리터럴형) var 변수명 = "문자열" ;<br>
+</body>
+</html>

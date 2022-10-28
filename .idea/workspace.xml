@@ -9,30 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_08.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_18_Function.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/mouse.png" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_30.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -291,14 +277,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="29092000" />
-    </task>
-    <task id="LOCAL-00031" summary="[스프링 퀵 스타트] DAY02, Class03 - after 어드바이스 예제">
-      <created>1660999454183</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1660999454183</updated>
+      <workItem from="1666017553526" duration="34069000" />
     </task>
     <task id="LOCAL-00032" summary="[스프링 퀵 스타트] DAY02, Class03 - around 어드바이스 예제 (BoardServiceImpl 내 after throwing 테스트 로직 삭제)">
       <created>1660999881488</created>
@@ -636,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666877580355</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="[한권자바] JavaScript study">
+      <created>1666888045319</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1666888045319</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 : static 제어자" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 타입 캐스팅" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 오버라이딩" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 오버라이딩/오버로딩" />
@@ -679,7 +664,8 @@
     <MESSAGE value="[한권자바] CSS3 study - 실습2 로그인 화면 만들기" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 로그인 화면 만들기 (css 적용)" />
     <MESSAGE value="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경" />
+    <MESSAGE value="[한권자바] JavaScript study" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

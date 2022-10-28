@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>객체 생성 - 리터럴을 이용한 객체 생성</title>
+    <script>
+      // User 객체 생성
+      var User = {
+        name: 'kim',
+        age: 25,
+        view: function () {
+          document.write('My name is ' + this.name + "<br>") ;
+          document.write('My age is ' + this.age + "<br>") ;
+        }
+      } ;
+      document.write(typeof User + "<br>") ;  // User 객체의 타입 확인하기 위해 typeof 사용
+      User.view() ; // User 객체의 view() 함수 호출
+    </script>
+</head>
+<body>
+
+</body>
+</html>

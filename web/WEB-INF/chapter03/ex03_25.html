@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>숫자를 다루는 Number객체</title>
+    <script>
+      var a = 15 ;  // 리터럴형
+      var b = new Number(15) ;  // 객체형
+      document.write(typeof a + "<br>") ; // number
+      document.write(typeof b + "<br><br>") ; // object
+
+      document.write("a와 b를 더하면: " + (a.toString() + b.toString()) + "<br>") ;
+      document.write("15의 2진수 표현: " + a.toString(2) + "<br>") ; // toString(8): 8진수, toString(16): 16진수
+      document.write("a와 b의 타입: " + typeof a + "&nbsp;&nbsp;" + typeof b + "<br>") ;
+      document.write("a와 b의 값 비교: " + (a == b) + "<br>") ;
+      document.write("a와 b의 타입 비교: " + (a === b) + "<br>") ;
+    </script>
+</head>
+<body>
+  <h1>표준객체</h1>
+  <ul>
+    <li>JavaScript에서 자주 사용하는 Number, String, Array, Date, Math 등 내장 객체를 의미</li>
+  </ul>
+
+  <h2>Number 객체</h2>
+  형식 <br>
+  (객체형) var 변수명 = new Number(숫자) ;<br>
+  (리터럴형) var 변수명 = 숫자 ;<br>
+</body>
+</html>

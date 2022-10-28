@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>객체 생성 - 생성자 함수(Object) 이용한 객체 생성</title>
+    <script>
+      // 빈 객체 User 생성
+      var User = new Object() ;
+      // 프로퍼티(=멤버변수) name, age 추가
+      User.name = 'kim';
+      User.age = 25 ;
+      // 메서드(=함수) view 추가
+      User.view = function () {
+        document.write('My name is ' + this.name + "<br>") ;
+        document.write('My age is ' + this.age + "<br>") ;
+      } ;
+      User.view() ;
+    </script>
+</head>
+<body>
+
+</body>
+</html>
