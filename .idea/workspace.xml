@@ -9,21 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 표준객체">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_31.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_32.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_33.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_34.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_35.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_37.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_38.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_39.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_BOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/win1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/win2.html" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - BOM, DOM">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_40.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/cat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,14 +270,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="40050000" />
-    </task>
-    <task id="LOCAL-00033" summary="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제">
-      <created>1661002327019</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1661002327019</updated>
+      <workItem from="1666017553526" duration="41458000" />
     </task>
     <task id="LOCAL-00034" summary="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-returning)">
       <created>1661023656773</created>
@@ -627,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666961301496</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="[한권자바] JavaScript study - BOM, DOM">
+      <created>1667047485019</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1667047485019</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +633,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 오버라이딩" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 오버라이딩/오버로딩" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 인스턴스 필드 중복" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super" />
@@ -670,7 +657,8 @@
     <MESSAGE value="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경" />
     <MESSAGE value="[한권자바] JavaScript study" />
     <MESSAGE value="[한권자바] JavaScript study - 표준객체" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 표준객체" />
+    <MESSAGE value="[한권자바] JavaScript study - BOM, DOM" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - BOM, DOM" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

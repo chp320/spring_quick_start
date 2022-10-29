@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>근거리 선택자 이해</title>
+</head>
+<body>
+  <h1>문서 객체 모델(DOM)</h1>
+  <h2>근거리 선택자</h2>
+  <ul>
+    <li>ownerDocument - 최상위 노드를 선택</li>
+    <li>parentNode - 선택요소의 부모 노드를 선택</li>
+    <li>childNodes - 선택요소의 "모든" 자식 노드를 선택 (배열 객체로 저장)</li>
+    <li>children - 선택요소의 자식 노드만 선택 (배열 객체로 저장)</li>
+    <li>firstChild - 선택요소의 첫 번째 자식 노드만 선택</li>
+    <li>lastChild - 선택요소의 마지막 자식 노드만 선택</li>
+    <li>previousSibling - 선택요소의 이전에 오는 형제 노드를 선택</li>
+    <li>nextSibling - 선택요소의 다음에 오는 형제 노드를 선택</li>
+  </ul>
+
+  <h2>DOM 객체 메서드</h2>
+  <ul>
+    <li>createElement(tagName) - 요소 노드를 생성</li>
+    <li>createTextNode(text) - 텍스트 노드를 생성</li>
+    <li>removeChild(child) - 자식 노드를 삭제</li>
+    <li>appendChild(node) - 자식 노드를 추가</li>
+    <li>setAttribute(name, value) - 객체의 속성을 설정</li>
+    <li>getAttribute(name) - 객체의 속성을 가져옴</li>
+  </ul>
+
+  <br><hr><br>
+
+  <strong>머릿말</strong><p id="me"><span>가운데</span><a href="">링크</a><img src="image/cat.png"/></p><button>꼬릿말</button>
+
+  <hr>
+
+  <script>
+    var me = document.getElementById("me") ;
+    document.write("topNode: " + me.ownerDocument.nodeName + "<br>") ;
+    document.write("firstChild: " + me.firstChild.nodeName + "<br>") ;
+    document.write("lastChild: " + me.lastChild.nodeName + "<br>") ;
+    document.write("parentNode: " + me.parentNode.nodeName + "<br>") ;
+    document.write("previousSibling: " + me.previousSibling.nodeName + "<br>") ;
+    document.write("nextSibling: " + me.nextSibling.nodeName + "<br>") ;
+  </script>
+</body>
+</html>
