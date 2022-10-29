@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>location 객체</title>
+    <script>
+      var t = new Date() ;
+      document.write(t.getHours() + ":" + t.getMinutes() + ":" + t.getSeconds()) ;
+      setInterval(function () {
+        location.reload() ; // 화면을 '새로 고침'
+      }, 1000) ;
+    </script>
+</head>
+<body>
+  <p>location.reload()로 1초마다 현재 시간 출력하기</p>
+</body>
+</html>

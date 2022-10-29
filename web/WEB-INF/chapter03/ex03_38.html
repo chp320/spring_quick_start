@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementsByName으로 좋아하는 과일 찾기</title>
+    <script>
+      function choice() {
+        // alert(document.getElementsByName("check").length) ;
+        // 이름(name)이 check인 요소의 갯수 확인
+        var size = document.getElementsByName("check").length ;
+        var text = "내가 좋아하는 과일은 " ;
+        for (var i=0; i<size; i++) {
+          if(document.getElementsByName("check")[i].checked == true) {
+            text += (document.getElementsByName("check")[i].value) ;
+            text += "&nbsp;&nbsp;" ;
+          }
+        }
+        text += "입니다." ;
+
+        /* text의 내용을 id가 demo인 영역에 출력 */
+        // document.getElementById("demo").innerText = text ;
+        document.getElementById("demo").innerHTML = text ;
+      }
+    </script>
+</head>
+<body>
+  좋아하는 과일을 선택하시오.
+  <input type="button" onclick="choice()" value="선택"><br>
+  <input type="checkbox" name="check" value="orange">orange<br>
+  <input type="checkbox" name="check" value="apple">apple<br>
+  <input type="checkbox" name="check" value="banana">banana<br>
+  <input type="checkbox" name="check" value="melon">melon<br>
+
+  <div id="demo"></div>
+</body>
+</html>

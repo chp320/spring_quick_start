@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window 객체</title>
+    <script>
+      // 프로그램이 시작하자마자 바로 호출하는 이벤트.
+      window.onload = function () {
+        var win = window.open('win1.html', '', 'width=300, height=200') ; // 너비 300, 높이 200인 윈도우를 열고 win1.html 를 출력
+        win.moveTo(100, 100) ;  // 절대위치인 100, 100으로 윈도우 이동
+
+        // 일정 시간마다 실행
+        window.setInterval(function () {
+          win.moveBy(20, 20) ;  // 현 위치에서 상대적인 위치로 이동
+        }, 1000) ;  // 1000 -> 1초마다 수행 (단위는 밀리세컨임)
+
+        window.setTimeout(function () {
+          win.close() ;
+        }, 5000) ;  // 5000 -> 5초 후에 실행문 수행
+      }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

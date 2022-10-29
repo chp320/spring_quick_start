@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체 모델(DOM)</title>
+    <script>
+      /* id명으로 요소를 가져와서, 요소의 내용을 text로 출력 */
+      function process1() {
+        var ob = document.getElementById("txt").value ;
+        document.getElementById("view1").innerText = ob ;
+      }
+      /* id명으로 요소를 가져와서, 요소의 내용을 html로 출력 */
+      function process2() {
+        var ob = document.getElementById("txt").value ;
+        document.getElementById("view2").innerHTML = ob ;
+      }
+    </script>
+</head>
+<body>
+  <h1>문서 객체 모델(DOM, Document Object Model)</h1>
+  <ul>
+    <li>document와 관련된 집합</li>
+    <li>DOM을 사용해서 HTML 페이지에 태그를 추가, 삭제, 수정 가능</li>
+    <li>HTML의 DOM 구조에서 최상위는 #document이고 마지막은 #text로 구성됨</li>
+    <li>document 객체의 요소를 추출하는 메서드 선택자 : 원거리 선택자, 근거리 선택자</li>
+    <ul>
+      <li>원거리 선택자: 요소의 '속성명'으로 선택</li>
+      <li>근거리 선택자: 가까이에 있는 요소를 선택</li>
+    </ul>
+  </ul>
+
+  <h2>원거리 선택자</h2>
+  <ul>
+    <li>getElementById("id명") - 태그의 id명이 일치하는 문서 객체를 가져옴</li>
+    <li>getElementsByName("name명") - 태그의 name명이 일치하는 문서 객체를 가져옴</li>
+    <li>getElementsByTagName("tag명") - 태그의 tag명이 일치하는 문서 객체를 가져옴</li>
+  </ul>
+
+  <hr>
+
+  <input type="text" id="txt" size="50" name="text">
+  <input type="button" value="출력1" onclick="process1()">
+  <input type="button" value="출력2" onclick="process2()">
+  <br><br><br>
+  <div id="view1"></div>
+  <div id="view2"></div>
+</body>
+</html>

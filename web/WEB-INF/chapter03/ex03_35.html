@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history 객체</title>
+    <script>
+      document.write("방문한 페이지 수: " + history.length) ;
+    </script>
+</head>
+<body>
+  <h2>history 객체</h2>
+  <ul>
+    <li>인터넷 방문 기록에 대한 정보를 제공</li>
+  </ul>
+
+  <h3>history 객체의 메서드</h3>
+  <ul>
+    <li>go(숫자) - 숫자만큼 다음 또는 이전 페이지로 이동</li>
+    <li>back() - 이전 페이지로 이동</li>
+    <li>forward() - 다음 페이지로 이동</li>
+    <li>length - 방문 기록에 저장된 목록의 개수를 반환</li>
+  </ul>
+
+  <hr>
+
+  <h3>History 객체 연습 (첫 번째 페이지)</h3>
+  <a href="test1.html">다음 페이지</a><br><br>
+    <input type="button" value="이전으로" onclick="javascript:history.back()">
+    <input type="button" value="다음으로" onclick="javascript:history.forward()">
+    <input type="button" value="처음으로" onclick="javascript:history.go(-2)">
+</body>
+</html>
