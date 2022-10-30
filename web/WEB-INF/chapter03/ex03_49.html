@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>정규 표현식</title>
+    <script>
+      function process() {
+        var id = document.getElementById("mid").value ;
+        /*
+          ^ : 문자열 시작을 알림
+          [a-zA-Z] : 첫 문자는 영문자 대/소문자로 입력
+          [0-9a-zA-Z] : 두 번째 문자부터는 숫자, 영문자 대/소문자로 입력
+          $ : 문자열 종료를 알림
+         */
+        // RegExp 객체를 이용한 정규 표현식 검증
+        var patt = new RegExp("^[a-zA-Z][0-9a-zA-Z]{4,7}$") ;
+
+        if (patt.test(id)) {
+          alert("성공");
+        } else {
+          alert("다시 입력");
+          document.getElementById("mid").value = "" ;
+          document.getElementById("mid").focus();
+        }
+      }
+    </script>
+</head>
+<body>
+  <div id="condition">
+    <strong>[아이디 입력 조건]</strong><br>
+    1. 입력되는 전체 길이는 5~8자 이어야 합니다. <br>
+    2. 아이디는 숫자와 영문자로만 사용 가능합니다.
+  </div>
+  <br>
+  <label>아이디</label>
+  <input type="text" name="mid" id="mid">
+  <input type="button" value="commit" onclick="process()">
+</body>
+</html>

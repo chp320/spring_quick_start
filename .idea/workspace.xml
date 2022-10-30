@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 이벤트 모델 및 JSON">
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_48.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_48.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_49.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_RegularExpression.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,14 +271,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="49017000" />
-    </task>
-    <task id="LOCAL-00036" summary="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (around)">
-      <created>1661024315824</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1661024315824</updated>
+      <workItem from="1666017553526" duration="52143000" />
     </task>
     <task id="LOCAL-00037" summary="[스프링 퀵 스타트] DAY02, Class05 - 어노테이션 기반 AOP 설정">
       <created>1661025821255</created>
@@ -613,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667136131097</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="[한권자바] JavaScript study - 이벤트 모델 및 JSON">
+      <created>1667136157212</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1667136157212</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
