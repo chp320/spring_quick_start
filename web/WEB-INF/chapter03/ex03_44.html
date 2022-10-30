@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>표준 이벤트 메서드</title>
+    <style>
+      #box{
+        background-color: orange;
+        border: 1px solid;
+        padding: 5px;
+        color: white;
+        width: 300px;
+        height: 200px;
+      }
+    </style>
+</head>
+<body>
+  <h1>표준 이벤트 모델</h1>
+  <ul>
+    <li>W3C에서 공식 지정한 DOM Level2 모델 (하나의 이벤트에 여러 리스너 연결 가능)</li>
+    <li>객체나 요소의 메서드로 이벤트 핸들러를 전달하는 방식</li>
+  </ul>
+  <h2>표준 이벤트 메서드</h2>
+  <ul>
+    <li>addEventListener(eventName, handler, [useCapture]) - 특정 이벤트를 등록하고 해당 함수를 실행</li>
+    <li>removeEventListener(eventName, handler) - 등록한 이벤트 리스너를 제거</li>
+  </ul>
+  <br><hr><br>
+  <div id="box">
+    <button onclick="addEventHandler()" id="startbtn">시작</button>
+    <button onclick="removeHandler()" id="stopbtn">정지</button>
+  </div>
+  <p id="demo"></p>
+
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = " X좌표: " + event.x + "&nbsp;&nbsp;&nbsp;Y좌표: " + event.y ;
+    }
+    function addEventHandler() {
+      document.getElementById("box").addEventListener("mousemove", myFunction) ;
+    }
+    function removeHandler() {
+      document.getElementById("box").removeEventListener("mousemove", myFunction) ;
+    }
+  </script>
+</body>
+</html>

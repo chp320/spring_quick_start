@@ -9,9 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - BOM, DOM">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/cat.png" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - DOM (근거리 선택자)">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_41.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_42.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_43.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_44.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_45.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_46.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_47.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_48.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_EventModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_json.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -270,14 +278,7 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="41458000" />
-    </task>
-    <task id="LOCAL-00034" summary="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-returning)">
-      <created>1661023656773</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1661023656773</updated>
+      <workItem from="1666017553526" duration="48935000" />
     </task>
     <task id="LOCAL-00035" summary="[스프링 퀵 스타트] DAY02, Class04 - JoinPoint 예제 (after-throwing)">
       <created>1661023937082</created>
@@ -615,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667047485019</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="[한권자바] JavaScript study - DOM (근거리 선택자)">
+      <created>1667048923245</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1667048923245</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 오버라이딩/오버로딩" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 인스턴스 필드 중복" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()" />
@@ -658,7 +665,8 @@
     <MESSAGE value="[한권자바] JavaScript study" />
     <MESSAGE value="[한권자바] JavaScript study - 표준객체" />
     <MESSAGE value="[한권자바] JavaScript study - BOM, DOM" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - BOM, DOM" />
+    <MESSAGE value="[한권자바] JavaScript study - DOM (근거리 선택자)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - DOM (근거리 선택자)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

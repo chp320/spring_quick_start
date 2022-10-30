@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>근거리 선택자 활용</title>
+</head>
+<body>
+  <ul id="tea">
+    <li>아메리카노</li>
+    <li>카페라떼</li>
+    <li>콜드브루</li>
+  </ul>
+  <hr>
+  <script>
+    var tea = document.getElementById("tea") ;
+    var childs = tea.childNodes ;
+    for (var i=0; i<childs.length; i++) {
+      if(childs[i].nodeName == "LI") {  // nodeName은 항상 대문자로 처리되기 때문에 앞으로 "대문자"로 작성해야함.
+        document.write(i + "번째 데이터 = " + childs[i].firstChild.nodeValue + "<br>") ;
+      }
+    }
+  </script>
+</body>
+</html>
