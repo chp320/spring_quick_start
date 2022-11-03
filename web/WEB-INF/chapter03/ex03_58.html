@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag & Drop</title>
+</head>
+<body>
+    <p>원하는 상품을 카트에 담으세요</p>
+    <div id="shopping_cart" ondrop="drop(event)" ondragover="allowDrop(event)" style="border: 1px dotted; padding: 100px"></div><br>
+    <img id="img1" src="image/back1.jpg" draggable="true" ondragstart="drag(event)"/>
+    <img id="img2" src="image/back2.jpg" draggable="true" ondragstart="drag(event)"/>
+    <img id="img3" src="image/back3.jpg" draggable="true" ondragstart="drag(event)"/>
+    <img id="img4" src="image/back4.jpg" draggable="true" ondragstart="drag(event)"/>
+    <img id="img5" src="image/back5.jpg" draggable="true" ondragstart="drag(event)"/>
+    <img id="img6" src="image/back6.jpg" draggable="true" ondragstart="drag(event)"/>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();    // 기본적으로 요소나 데이터에 다른 요소를 겹치는 것(drop)은 허용되지 않음. 이를 해제하기 위한 API
+        }
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text"); // 저장한 "text" 요소를 가져옴
+            ev.target.appendChild(document.getElementById(data));   // 가져온 "text" 를 target에 추가
+        }
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);  // 이벤트가 발생하는 객체(끌려오는 요소의 id)의 text명으로 이름을 부여
+        }
+    </script>
+</body>
+</html>

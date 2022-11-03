@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>웹 워커</title>
+</head>
+<body>
+    <h1>웹 워커 (Web Worker)</h1>
+    <ul>
+      <li>백그라운드에서 쓰레드(thread)가 동작하게 해주는 javascript</li>
+      <li>쓰레드: 응용 프로그램(프로세스) 내에서 실행하는 흐름의 단위</li>
+      <ul>
+        <li>단일 쓰레드: 어떤 특정한 시점에서 한 가지 일만 수행. 한 작업이 끝날 때까지 다른 작업은 대기해야 한다.</li>
+        <li>'웹 워커'는 JavaScript의 '멀티 쓰레드'를 지원함</li>
+      </ul>
+      <li>웹 워커의 활용 범위</li>
+      <ul>
+        <li>로컬이나 원격지에 있는 리소스에 대한 엑세스 작업을 할 경우에 사용</li>
+        <li>백그라운드에서 오랜 시간 작업해야 하는 경우 사용</li>
+      </ul>
+      <li>형식: var 객체명 = new Worker("파일명") ;</li>
+    </ul>
+</body>
+</html>

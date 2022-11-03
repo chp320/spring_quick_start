@@ -9,10 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 이벤트 모델 및 JSON">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_49.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_50.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_RegularExpression.html" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - JSON, 정규표현식">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/audio/welcome.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_51.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_52.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_53.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_54.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_55.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_56.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_58.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_59.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_60.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_WebStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_webWorkerApi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/bear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/video/gilgamesh.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,29 +67,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/web/WEB-INF/chapter03/image",
-    "list.type.of.created.stylesheet": "CSS",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "spring.configuration.checksum": "300a1a224385acfb318149b6498f746d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leo/IdeaProjects/biz/web/WEB-INF/chapter03/image&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;300a1a224385acfb318149b6498f746d&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/image" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/video" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/audio" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/project2/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/image" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02/image" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02" />
@@ -271,14 +288,10 @@
       <workItem from="1663593853385" duration="9625000" />
       <workItem from="1665583518940" duration="16762000" />
       <workItem from="1665932299475" duration="23000" />
-      <workItem from="1666017553526" duration="52143000" />
-    </task>
-    <task id="LOCAL-00037" summary="[스프링 퀵 스타트] DAY02, Class05 - 어노테이션 기반 AOP 설정">
-      <created>1661025821255</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1661025821255</updated>
+      <workItem from="1666017553526" duration="52236000" />
+      <workItem from="1667239846867" duration="5018000" />
+      <workItem from="1667304750170" duration="509000" />
+      <workItem from="1667315096016" duration="2884000" />
     </task>
     <task id="LOCAL-00038" summary="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 예제">
       <created>1661521074456</created>
@@ -616,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667136157212</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="[한권자바] JavaScript study - JSON, 정규표현식">
+      <created>1667139332977</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1667139332977</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +654,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : Object" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드" />
@@ -659,7 +678,8 @@
     <MESSAGE value="[한권자바] JavaScript study - BOM, DOM" />
     <MESSAGE value="[한권자바] JavaScript study - DOM (근거리 선택자)" />
     <MESSAGE value="[한권자바] JavaScript study - 이벤트 모델 및 JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 이벤트 모델 및 JSON" />
+    <MESSAGE value="[한권자바] JavaScript study - JSON, 정규표현식" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - JSON, 정규표현식" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
