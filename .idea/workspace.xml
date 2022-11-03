@@ -9,27 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - JSON, 정규표현식">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/audio/welcome.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_52.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_53.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_54.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_55.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_56.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_58.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_59.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_60.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_WebStorage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_webWorkerApi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/back6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/image/bear.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/video/gilgamesh.mp4" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_61.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +27,7 @@
         <option value="Class" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -291,14 +274,7 @@
       <workItem from="1666017553526" duration="52236000" />
       <workItem from="1667239846867" duration="5018000" />
       <workItem from="1667304750170" duration="509000" />
-      <workItem from="1667315096016" duration="2884000" />
-    </task>
-    <task id="LOCAL-00038" summary="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 예제">
-      <created>1661521074456</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1661521074456</updated>
+      <workItem from="1667315096016" duration="4525000" />
     </task>
     <task id="LOCAL-00039" summary="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 예제">
       <created>1661588455837</created>
@@ -636,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667139332977</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커">
+      <created>1667481432411</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1667481432412</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : Object" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 추상 클래스" />
@@ -679,7 +661,8 @@
     <MESSAGE value="[한권자바] JavaScript study - DOM (근거리 선택자)" />
     <MESSAGE value="[한권자바] JavaScript study - 이벤트 모델 및 JSON" />
     <MESSAGE value="[한권자바] JavaScript study - JSON, 정규표현식" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - JSON, 정규표현식" />
+    <MESSAGE value="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

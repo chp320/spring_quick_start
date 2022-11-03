@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>웹 워커</title>
+</head>
+<body>
+  <h2>Web Worker Test</h2>
+  <button id="btnStart" class="btn">Start</button>
+  <button id="btnStop" class="btn">Stop</button>
+  <div id="demo"></div>
+
+  <script>
+    var worker = null;
+
+    function init() {
+      var btnStart = document.getElementById("btnStart");
+      var btnStop = document.getElementById("btnStop");
+      var demo = document.getElementById("demo");
+
+      // 표준 이벤트 설정 (교재 p.218 참고)
+      btnStart.addEventListener("click", startWorker);  // btnStart에 이벤트리스너 추가. 이벤트리스너는 마우스 'click' 이벤트 발생 시 startWorker() 메서드를 호출
+      btnStop.addEventListener("click", stopWorker);  // btnStop에 이벤트리스너 추가.
+    }
+
+    function startWorker() {
+      if (!window.Worker) {
+        console.log("웹 워커를 지원하지 않는 브라우저입니다!");
+      }
+      if (worker) {
+        stopWorker();
+      }
+
+      worker = new Worker("worker.js"); // worker 객체 생성
+      worker.postMessage("");
+
+      // 서버에서 보내는 메시지 수신
+      worker.onmessage = function (event) {
+        console.log("호출 메시지: ", event.data);
+        demo.innerHTML += event.data + "<br>";
+      } ;
+    }
+
+    function stopWorker() {
+      if (worker) {
+        worker.terminate(); // worker 쓰레드를 강제 종료
+        worker = null;
+      }
+    }
+
+    window.addEventListener("load", init, false); // 프로그램 실행 시 가장 먼저 수행됨
+  </script>
+</body>
+</html>
