@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>웹 소켓</title>
+    <style>
+        table td{
+            /*width: 450px;*/
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+  <h1>웹 소켓(Web Socket) API</h1>
+  <li>서버와 클라이언트 간에 실시간으로 데이터를 교활할 수 있게 해주는 기술</li>
+  <li>HTTP 프로토콜인 Request와 Response 기반으로 데이터 송수신</li>
+  <li>기본적인 흐름 (클라이언트 - 서버)</li>
+  <ul>
+      <li>(client) TCP/IP 접속 요청</li>
+      <li>(server) TCP/IP 접속 수락</li>
+      <li>(client) 웹 소켓 열기 (핸드쉐이크 요청)</li>
+      <li>(server) 웹 소켓 열기 (핸드쉐이크 수락)</li>
+      <li>(client/server) 데이터 송.수신</li>
+  </ul>
+  <li>웹 소켓 형식</li>
+  <table>
+      <tr>
+          <td>
+              [형식]<br>
+              var 객체명 = new WebSocket("ws://사용자 도메인/페이지") ; <br>
+              ➞ 일반 통신은 "ws://", 보안(SSL)은 "wss://" 프로토콜을 사용!
+          </td>
+      </tr>
+  </table>
+  <li>웹 소켓 객체</li>
+  <table>
+      <tr>
+          <td>이벤트 또는 메서드</td>
+          <td>설명</td>
+      </tr>
+      <tr>
+          <td>onopen</td>
+          <td>서버와 연결이 설정되면 발생하는 이벤트</td>
+      </tr>
+      <tr>
+          <td>onclose</td>
+          <td>서버와 연결이 끊어지면 발생하는 이벤트</td>
+      </tr>
+      <tr>
+          <td>onmessage</td>
+          <td>서버에서 push(전송)하는 데이터를 받는 이벤트</td>
+      </tr>
+      <tr>
+          <td>onerror</td>
+          <td>에러가 발생할 때 받는 이벤트</td>
+      </tr>
+      <tr>
+          <td>send()</td>
+          <td>데이터를 송신하는 메서드</td>
+      </tr>
+      <tr>
+          <td>close()</td>
+          <td>객체 종료 메서드</td>
+      </tr>
+  </table>
+</body>
+</html>

@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_61.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/worker.js" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 웹 워커">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_62.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/ex03_webSocket.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +26,8 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -274,14 +274,8 @@
       <workItem from="1666017553526" duration="52236000" />
       <workItem from="1667239846867" duration="5018000" />
       <workItem from="1667304750170" duration="509000" />
-      <workItem from="1667315096016" duration="4525000" />
-    </task>
-    <task id="LOCAL-00039" summary="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 예제">
-      <created>1661588455837</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1661588455837</updated>
+      <workItem from="1667315096016" duration="6070000" />
+      <workItem from="1667654812214" duration="3556000" />
     </task>
     <task id="LOCAL-00040" summary="[Do it] 자바 완전 정복 - 9장. 접근 지정자1 : static 제어자">
       <created>1661688544202</created>
@@ -619,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667481432412</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="[한권자바] JavaScript study - 웹 워커">
+      <created>1667483268141</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1667483268141</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : Object" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 추상 클래스" />
     <MESSAGE value="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성" />
@@ -662,7 +662,8 @@
     <MESSAGE value="[한권자바] JavaScript study - 이벤트 모델 및 JSON" />
     <MESSAGE value="[한권자바] JavaScript study - JSON, 정규표현식" />
     <MESSAGE value="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커" />
+    <MESSAGE value="[한권자바] JavaScript study - 웹 워커" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 웹 워커" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

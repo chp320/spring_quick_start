@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>웹 소켓</title>
+</head>
+<body>
+  <h2>Web Socket Test</h2>
+  <div id="demo"></div>
+
+  <script>
+    // var url = "ws://echo.websocket.org";
+    /*
+      websocket.org 가 2021년에 서비스 종료함에 따라 아래 url로 변경
+      https://github.com/websocket-client/websocket-client/issues/779
+     */
+    var url = "ws://echo.websocket.events/";
+    var demo = document.getElementById("demo");
+
+    window.addEventListener("load", init, false);
+
+    function init() {
+      var demo = document.getElementById("demo");
+      callWebSocket();
+    }
+
+    function callWebSocket() {
+      ws = new WebSocket(url);
+      ws.onopen = function(event) { onOpen(event) }   // ws의 onopen 이벤트 발생 시 onOpen() 메서드 호출
+      ws.onclose = function (event) { onClose(event) }  // ws의 onclose 이벤트 발생 시 onClose() 메서드 호출
+      ws.onmessage = function (event) { onMessage(event) }  // ws의 onmessage 이벤트 발생 시 onMessage() 메서드 호출
+      ws.onerror = function (event) { onError(event) }  // ws의 onerror 이벤트 발생 시 onError() 메서드 호출
+    }
+
+    function onOpen(evnet) {
+      printToScreen("접속 성공");
+      doSend("Hello webSocket");
+    }
+
+    function onMessage(event) {
+        printToScreen("<span style='color: blue;'>수신 메시지: " + event.data + "</span>");
+        ws.close();
+    }
+
+    function onClose(event) {
+        printToScreen("접속 종료");
+    }
+
+    function onError(event) {
+        printToScreen("<span style='color: red;'>에러 발생: " + event.data + "</span>");
+    }
+
+    function printToScreen(message) {
+      var pre = document.createElement("p");  // createElement - 인자로 전달되는 HTML 요소를 생성하는 함수
+      pre.style.wordWrap = "break-word";
+      pre.innerHTML = message;
+      demo.appendChild(pre);
+    }
+
+    function doSend(message) {
+        printToScreen("송신 메시지: " + message) ;
+        ws.send(message);
+    }
+  </script>
+</body>
+</html>
