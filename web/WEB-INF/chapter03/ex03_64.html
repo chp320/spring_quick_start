@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>지오로케이션</title>
+</head>
+<body>
+    <span>이 곳의 지도가 궁금한가요?</span>
+    <button onclick="locationEventHandler()">지도보기</button><br><br>
+
+    <script>
+      function locationEventHandler() {
+        if (navigator.geolocation) {
+          console.log("위치 정보를 가져오는 중...");
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+          document.getElementById("demo").innerHTML = "브라우저가 Geolocation을 지원하지 않습니다.";
+        }
+      }
+
+      function showPosition(position) {
+        var pos = position.coords.latitude + ", " + position.coords.longitude;
+        console.log(pos);
+        var url = "http://maps.googleapis.com/maps/api/staticmap?center=" + pos + "&zoom=14&size=500x300&sensor=false";
+        window.open(url); // 새 창의 띄우고 url 접속
+      }
+    </script>
+
+    <!-- 하지만 위의 url로 접속을 하면, API key를 발급받으라고 안내가 나온다. 구글에서 API 인증키값을 받아보자! -->
+    <!--
+    The Google Maps Platform server rejected your request. You must use an API key to authenticate each request to Google Maps Platform APIs. For additional information, please refer to http://g.co/dev/maps-no-account
+    -->
+</body>
+</html>

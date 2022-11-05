@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>지오로케이션</title>
+</head>
+<body>
+    <div id="googleMap" style="width: 500px; height: 380px;"></div>
+
+    <!-- 아래 API 키는 구글 개발자센터에서 발급 받은 값! ... 그런데 지도가 표시 안된다... -_-;;  -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGWF5NG-2FI7Qkku1e_rSuG4xCXiOt22g"></script>
+    <script>
+      var myCenter = new google.maps.LatLng(37.498146, 127.027557);
+      function myMap() {
+        var mapProp = { center:myCenter,
+                        zoom: 5,
+                        mapTypeId:google.maps.MapTypeId.ROADMAP} ;
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        var marker = new google.maps.Marker({ position:myCenter,
+                                              animation:google.maps.Animation.BOUNCE}) ;
+        marker.setMap(map) ;
+      }
+    </script>
+</body>
+</html>
