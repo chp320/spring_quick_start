@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Ajax study - non ajax&amp;ajax ajax타겟소스 jsp/html 변경해서 테스트">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_02_Ajax.html" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Ajax study - Ajax 구현 이론 정리">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/content/sample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_01.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,14 +277,7 @@
       <workItem from="1667304750170" duration="509000" />
       <workItem from="1667315096016" duration="6070000" />
       <workItem from="1667654812214" duration="14186000" />
-      <workItem from="1668436247573" duration="3929000" />
-    </task>
-    <task id="LOCAL-00048" summary="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super/super()">
-      <created>1662157767906</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1662157767906</updated>
+      <workItem from="1668436247573" duration="5845000" />
     </task>
     <task id="LOCAL-00049" summary="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : Object">
       <created>1662159282406</created>
@@ -622,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668436807153</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="[한권자바] Ajax study - Ajax 구현 이론 정리">
+      <created>1668440209775</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1668440209775</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] CSS3 study - navigation, dropdown 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 레이아웃 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 반응형 레이아웃 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기" />
@@ -665,7 +664,8 @@
     <MESSAGE value="[한권자바] JavaScript study - 모달팝업/그래프(using canvas)/css 적용" />
     <MESSAGE value="[한권자바] Ajax study - non ajax&amp;ajax" />
     <MESSAGE value="[한권자바] Ajax study - non ajax&amp;ajax ajax타겟소스 jsp/html 변경해서 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Ajax study - non ajax&amp;ajax ajax타겟소스 jsp/html 변경해서 테스트" />
+    <MESSAGE value="[한권자바] Ajax study - Ajax 구현 이론 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Ajax study - Ajax 구현 이론 정리" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
