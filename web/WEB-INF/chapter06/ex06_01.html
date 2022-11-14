@@ -27,6 +27,8 @@
     <script>
         function requestAjax() {
             var xhr = new XMLHttpRequest();
+            // onreadystatechnage : XMLHttpRequest 객체의 이벤트 핸들러 관련 속성 중 하나
+            // ㄴ 통신 상태가 변화된 타이밍에 호출되는 이벤트 핸들러 (상세 내용은 ex06_06_Ajax.html 참고)
             xhr.onreadystatechange = function () {
                 var result = document.getElementById("result");
                 if (xhr.status == 200 && xhr.readyState == XMLHttpRequest.DONE) {
