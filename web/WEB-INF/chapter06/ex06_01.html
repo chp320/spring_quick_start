@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Non-Ajax와 Ajax 통신 비교</title>
+</head>
+<body>
+    <h1>Non-Ajax 통신 테스트</h1>
+    <!-- 하이퍼링크 텍스트로 요청 -->
+<!--    <a href="content/sample.jsp">하이퍼링크로요청</a>-->
+    <a href="content/sample.html">하이퍼링크로요청</a>
+    <br><br>
+    <!-- 하이퍼링크 이미지로 요청 -->
+    <a href="content/sample.html">
+        <img src="image/duke_luau.png" width="100">
+    </a>
+    <br><br>
+    <button onclick="location.href='content/sample.html'">버튼을 클릭하여 요청</button>
+
+    <hr>
+
+    <!-- Non-Ajax와 다르게 페이지이동 없이 현재 페이지 영역에 응답값을 출력함. Ajax 통신은 반드시 JavaScript로 정해진 API를 구현해야 함. -->
+    <h1>Ajax 통신 테스트</h1>
+    <button onclick="requestAjax();">버튼을 클릭하여 요청 (Ajax사용)</button>
+    <div id="result" style="margin-top: 5px"></div>
+
+    <script>
+        function requestAjax() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                var result = document.getElementById("result");
+                if (xhr.status == 200 && xhr.readyState == XMLHttpRequest.DONE) {
+                    result.innerHTML = xhr.responseText;
+                }
+            } ;
+            xhr.open("GET", "content/sample.html", true);
+            xhr.send();
+        }
+    </script>
+</body>
+</html>

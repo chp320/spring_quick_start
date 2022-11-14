@@ -9,19 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 막대 그래프 그리기(canvas API 활용)">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/galary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/namgaram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/s1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/s2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/s3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/s4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image/s5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/login.html" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] JavaScript study - 모달팝업/그래프(using canvas)/css 적용">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/content/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/content/sample.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/image/duke_luau.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +27,10 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -67,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/web/WEB-INF/chapter03/excercise03/WebProject/image",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/web/WEB-INF/chapter06/image",
     "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
@@ -78,11 +71,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter06/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/js" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/css" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/work1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02" />
@@ -285,14 +278,7 @@
       <workItem from="1667239846867" duration="5018000" />
       <workItem from="1667304750170" duration="509000" />
       <workItem from="1667315096016" duration="6070000" />
-      <workItem from="1667654812214" duration="12557000" />
-    </task>
-    <task id="LOCAL-00045" summary="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : 인스턴스 필드 중복">
-      <created>1661981363337</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1661981363337</updated>
+      <workItem from="1667654812214" duration="14186000" />
     </task>
     <task id="LOCAL-00046" summary="[Do it] 자바 완전 정복 - 10장.클래스의 상속과 다형성 : super">
       <created>1661982061784</created>
@@ -630,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667856032961</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="[한권자바] JavaScript study - 모달팝업/그래프(using canvas)/css 적용">
+      <created>1667858816857</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1667858816857</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스" />
     <MESSAGE value="[한권자바] HTML5 study" />
     <MESSAGE value="[한권자바] CSS3 study" />
     <MESSAGE value="[한권자바] CSS3 study - navigation, dropdown 적용" />
@@ -673,7 +665,8 @@
     <MESSAGE value="[한권자바] JavaScript study - 실습03의 이미지 등록" />
     <MESSAGE value="[한권자바] JavaScript study - 롤링 이미지 구현(js이용)" />
     <MESSAGE value="[한권자바] JavaScript study - 막대 그래프 그리기(canvas API 활용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 막대 그래프 그리기(canvas API 활용)" />
+    <MESSAGE value="[한권자바] JavaScript study - 모달팝업/그래프(using canvas)/css 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] JavaScript study - 모달팝업/그래프(using canvas)/css 적용" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
