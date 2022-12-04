@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Web Project</title>
+</head>
+<body>
+  <h2>onreadystatechange 속성 사용 - JSON 응답</h2>
+  <hr>
+
+  <script>
+    window.onload = function () {
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+          if (xhr.status == 200) {
+            // JSON 형식의 문자열 추출
+            var str = xhr.responseText;
+            var result = JSON.parse(str);  // JSON 형식의 문자열 파싱
+            var output = '' ;
+            for (var i in result) {
+              output += "<h3>" + result[i] + "</h3>" ;
+            }
+            document.body.innerHTML += output;
+          }
+        }
+      };
+      xhr.open('GET', 'content/sample.json', true);
+      xhr.send();
+    } ;
+  </script>
+</body>
+</html>

@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Ajax study - XML 응답">
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="내장 카메라 모듈 호출 기능 테스트">
       <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/content/sample.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,29 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leo/IdeaProjects/biz/web/WEB-INF/chapter06/image&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;300a1a224385acfb318149b6498f746d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/web/WEB-INF/cameraTest",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "spring.configuration.checksum": "300a1a224385acfb318149b6498f746d"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/cameraTest" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter06/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/js" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02" />
@@ -278,13 +277,7 @@
       <workItem from="1667315096016" duration="6070000" />
       <workItem from="1667654812214" duration="14186000" />
       <workItem from="1668436247573" duration="6451000" />
-    </task>
-    <task id="LOCAL-00050" summary="[Do it] 자바 완전 정복 - 11장.자바 제어자2 : final키워드">
-      <created>1663021137576</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1663021137577</updated>
+      <workItem from="1670112021844" duration="291000" />
     </task>
     <task id="LOCAL-00051" summary="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 추상 클래스">
       <created>1663593065963</created>
@@ -622,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668442267969</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="내장 카메라 모듈 호출 기능 테스트">
+      <created>1670112311778</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1670112311778</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] CSS3 study - 반응형 레이아웃 적용" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기 (이미지추가)" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)" />
@@ -665,7 +664,8 @@
     <MESSAGE value="[한권자바] Ajax study - non ajax&amp;ajax ajax타겟소스 jsp/html 변경해서 테스트" />
     <MESSAGE value="[한권자바] Ajax study - Ajax 구현 이론 정리" />
     <MESSAGE value="[한권자바] Ajax study - XML 응답" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Ajax study - XML 응답" />
+    <MESSAGE value="내장 카메라 모듈 호출 기능 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="내장 카메라 모듈 호출 기능 테스트" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
