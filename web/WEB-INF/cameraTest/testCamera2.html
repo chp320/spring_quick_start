@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Camera</title>
+    <script src="/jquery/jquery.js"></script>
+</head>
+<body>
+    camera:
+    <br>
+    <input type="file" id="camera" name="camera" capture="camera" accept="image/*" />
+    <br>
+    <img id="pic" style="width:100%;" />
+    preview:
+    <div id="image_preview">
+        <img src="#" />
+    </div>
+
+
+<!-- -------------------------------------------------------------------------- -->
+
+    <script type="text/javascript">
+        $('#camera').change(function(e) {
+            alert("111");
+            // $('#pic').attr('src', URL.createObjectURL(e.target.files[0])) ;
+            // $('#preview').attr('src', e.target.files[0]) ;
+            file = $('#camera').prop("files")[0];
+            alert(file);
+            blobURL = window.URL.createObjectURL(file);
+            alert(blobURL);
+            $('#image_preview img').attr('src', blobURL);
+            $('#image_preview').slideDown(); //업로드한 이미지 미리보기
+        }) ;
+    </script>
+
+</body>
+</html>

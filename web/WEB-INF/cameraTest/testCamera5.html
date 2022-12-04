@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="viewport" content="width=320; user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Camera</title>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+
+  <form>
+    <p>
+      <label for="camera">camera:</label>
+      <input type="file" id="camera" name="camera" capture="camera" accept="image/*" />
+    </p>
+  </form>
+
+  <div id="image_preview" style="width: 100px; height: 200px; display: none">
+    <img src="#" style="width: 100%; height: 100%"/>
+    <br />
+    <a href="#">Clear</a>
+  </div>
+
+<br>
+
+
+<script type="text/javascript">
+
+  /**
+   * blob : '대용량 바이너리 객체' - 이미지, 동영상 등 단순 텍스트가 아닌 바이너리 데이터를 담을 수 있는 객체
+   * -> blob은 URL을 통해서 접근 가능하며, 전역 객체인 URL의 createObjectURL 메소드를 호출하면서 첫 번째 인수로 URL을 만들 Blob 또는 File 객체를 전달하여 생성한다. (자바스크립트에서 File은 Blob의 하위 자료형)
+   * ex) blob:78951d96-4d66-4067-b050-b9d32935f11a
+   */
+  let blobURL ;
+  // 카메라로 찍은 이미지파일의 fakepath 확인 용도
+  let ext ;
+
+  $('#camera').on('change', function () {
+
+    // 전체 경로 확인 (ex- C:\fakepath\xxxxxx.jpg)
+    ext = $(this).val();
+
+    file = $('#camera').prop("files")[0];
+    // blobURL 생성
+    blobURL = window.URL.createObjectURL(file);
+
+    // img 태그에 연결
+    $('#image_preview img').attr('src', blobURL);
+    // 촬영한 이미지 노출 (미리보기)
+    $('#image_preview').slideDown();
+
+  }) ;
+
+  /**
+   * clear 링크 클릭 시 사진 삭제
+   */
+  $('#image_preview a').bind('click', function() {
+    // 폼요소 초기화 수행
+    resetFormElement($('#camera'));
+
+    // 카메라 호출 input 태그 노출
+    $('#camera').slideDown();
+    // 미리보기 영역 숨김
+    $(this).parent().slideUp();
+
+    // 폼요소 초기화 시 blobURL 삭제(메모리에서 제거)했기 때문에 새창으로 열면 error 발생 (for test)
+    window.open(blobURL);
+
+    // return false;
+  });
+
+
+  /**
+   * 모든 항목 초기화!
+   */
+  function resetFormElement(e) {
+    // blobURL 사용하지 않음! -> 메모리에서 삭제
+    window.URL.revokeObjectURL(blobURL);
+
+    e.wrap('<form>').closest('form').get(0).reset();
+    e.unwrap(); //감싼 <form> 태그를 제거
+  }
+
+</script>
+
+</body>
+</html>
