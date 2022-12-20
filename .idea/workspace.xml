@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Ajax - Ajax">
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Ajax - XML 파일 로딩 테스트">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_03.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/chapter06/ex06_02.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,14 +280,7 @@
       <workItem from="1668436247573" duration="6451000" />
       <workItem from="1670112021844" duration="291000" />
       <workItem from="1670159807763" duration="185000" />
-      <workItem from="1671542674402" duration="3334000" />
-    </task>
-    <task id="LOCAL-00053" summary="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성">
-      <created>1663595380997</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1663595380997</updated>
+      <workItem from="1671542674402" duration="3942000" />
     </task>
     <task id="LOCAL-00054" summary="[Do it] 자바 완전 정복 - 12장.추상 클래스와 인터페이스 : 인터페이스 특성">
       <created>1663597125412</created>
@@ -625,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671545351291</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="[한권자바] Ajax - XML 파일 로딩 테스트">
+      <created>1671546512961</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1671546512961</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 로그인 화면 만들기" />
     <MESSAGE value="[한권자바] CSS3 study - 실습2 로그인 화면 만들기 (css 적용)" />
     <MESSAGE value="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경" />
@@ -668,7 +667,8 @@
     <MESSAGE value="내장 카메라 모듈 호출 기능 테스트" />
     <MESSAGE value="do it 자바 - 문서 추가" />
     <MESSAGE value="[한권자바] Ajax - Ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Ajax - Ajax" />
+    <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Ajax - XML 파일 로딩 테스트" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
