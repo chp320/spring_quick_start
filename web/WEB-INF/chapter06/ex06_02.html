@@ -19,10 +19,14 @@
             var rootE = xml.getElementsByTagName('testxml');  // XML의 루트 엘리먼트인 testxml 태그에 대한 DOM 객체 추출
             var output = '' ;
             console.log("111");
+            console.log("length: " + rootE[0].childNodes.length) ;
+            console.log(rootE[0].childNodes) ;
+
             for (var i = 1; i < rootE[0].childNodes.length; i += 2) {
               // 루트 엘리먼트인 testxml로부터 자식 엘리먼트를 반복하여 추출
               // 2씩 증가시키는 이유 : 루트 엘리먼트와 첫번째 자식 사이에는 엔터문자+다음행공백문자 가 하나로 합쳐진 text타입의 DOM객체가 존재하고, 이를 제외한 대상 추출이 필요하기 때문!
               // 아래 nodeVlue를 통해서 XML 노드의 텍스트값을 추출하는데.. 그런데 태그명은 어떻게 가져오지?? nodeName하니까 #text 이딴 값만 가져오는디... -_-;;
+                console.log("["+i+"] " + rootE[0].childNodes[i].firstChild.nodeValue) ;
               output += "<h3>" + rootE[0].childNodes[i].firstChild.nodeValue + "</h3>" ;
             }
             document.body.innerHTML += output;
