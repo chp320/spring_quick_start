@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Ajax - json 파일 로딩 테스트 (onreadystatechnage 속성 사용)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/HelloServlet.java" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Servlet - pom.xml 수정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/FlowServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,13 +289,7 @@
       <workItem from="1671553218803" duration="961000" />
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
-    </task>
-    <task id="LOCAL-00057" summary="[Do it] 자바 완전 정복 - 13장.이너 클래스와 이너 인터페이스 : 인스턴스 멤버 이너 클래스">
-      <created>1663769427446</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1663769427446</updated>
+      <workItem from="1671555640838" duration="931000" />
     </task>
     <task id="LOCAL-00058" summary="[Do it] 자바 완전 정복 - 13장.이너 클래스와 이너 인터페이스 : 지역 이너 클래스">
       <created>1663774341662</created>
@@ -634,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671551031991</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="[한권자바] Servlet - pom.xml 수정">
+      <created>1671555684828</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1671555684828</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경" />
     <MESSAGE value="[한권자바] JavaScript study" />
     <MESSAGE value="[한권자바] JavaScript study - 표준객체" />
     <MESSAGE value="[한권자바] JavaScript study - BOM, DOM" />
@@ -677,7 +676,8 @@
     <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트" />
     <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트 (onload 속성 사용)" />
     <MESSAGE value="[한권자바] Ajax - json 파일 로딩 테스트 (onreadystatechnage 속성 사용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Ajax - json 파일 로딩 테스트 (onreadystatechnage 속성 사용)" />
+    <MESSAGE value="[한권자바] Servlet - pom.xml 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Servlet - pom.xml 수정" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
