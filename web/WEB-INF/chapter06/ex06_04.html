@@ -16,7 +16,7 @@
           if (xhr.status == 200) {
             // JSON 형식의 문자열 추출
             var str = xhr.responseText;
-            var result = JSON.parse(str);  // JSON 형식의 문자열 파싱
+            var result = JSON.parse(str);  // JSON 형식의 문자열 파싱해서 JavaScript 객체로 생성
             var output = '' ;
             for (var i in result) {
               output += "<h3>" + result[i] + "</h3>" ;
