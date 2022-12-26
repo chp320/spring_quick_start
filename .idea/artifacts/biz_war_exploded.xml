@@ -18,6 +18,7 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="biz/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/core" />
     </root>
   </artifact>
 </component>

@@ -9,8 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Servlet - request 정보 추출">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ResponseServlet.java" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Servlet - response 처리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/LottoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/QueryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/images/clover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/images/duke3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/servletexam/lotto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/servletexam/query.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/biz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/biz_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,39 +56,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leo/IdeaProjects/biz/web/WEB-INF/cameraTest&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;300a1a224385acfb318149b6498f746d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/src/main/java/core/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "spring.configuration.checksum": "300a1a224385acfb318149b6498f746d"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/core/images" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/cameraTest" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter06/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/core/servletexam" />
+      <recent name="$PROJECT_DIR$/src/main/java/core/" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/do_it_Java_documents" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/project1" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02/image" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.doit.java.inner.sec03_localinnerclass.EX01_AccessMemberAndLocalVariable" />
@@ -128,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultMethod_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.java.abstractclass_interface.sec02_interface.EX06_DefaultMethod_1.DefaultMethod_1" />
-      <module name="biz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.doit.java.abstractclass_interface.sec02_interface.EX06_DefaultMethod_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UseMembersOfOuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.doit.java.inner.sec01_instanceinnerclass.EX02_UseMembersOfOuterClass.UseMembersOfOuterClass" />
       <module name="biz" />
@@ -153,6 +147,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="lotto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/biz/core/servletexam/lotto.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 8.5.61" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -245,17 +242,17 @@
       <item itemvalue="Application.AnonymousClass_1" />
       <item itemvalue="Application.AnonymousClass_2" />
       <item itemvalue="Application.CreateObjectAndAccessMember" />
-      <item itemvalue="Application.DefaultMethod_1" />
       <item itemvalue="Application.UseMembersOfOuterClass" />
+      <item itemvalue="JavaScript Debug.lotto.html" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.lotto.html" />
         <item itemvalue="Application.AnonymousClass_2" />
         <item itemvalue="Application.AnonymousClass_1" />
         <item itemvalue="Application.UseMembersOfOuterClass" />
         <item itemvalue="Application.CreateObjectAndAccessMember" />
-        <item itemvalue="Application.DefaultMethod_1" />
       </list>
     </recent_temporary>
   </component>
@@ -290,14 +287,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="3268000" />
-    </task>
-    <task id="LOCAL-00061" summary="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스">
-      <created>1663775123194</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1663775123194</updated>
+      <workItem from="1671641526272" duration="11055000" />
     </task>
     <task id="LOCAL-00062" summary="[Do it] 자바 완전 정복 - 13.2_익명 이너 클래스">
       <created>1663775316408</created>
@@ -635,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671559526855</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="[한권자바] Servlet - response 처리">
+      <created>1671803012977</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1671803012977</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] JavaScript study - DOM (근거리 선택자)" />
     <MESSAGE value="[한권자바] JavaScript study - 이벤트 모델 및 JSON" />
     <MESSAGE value="[한권자바] JavaScript study - JSON, 정규표현식" />
     <MESSAGE value="[한권자바] JavaScript study - 웹 스토리지(세션, 로컬), 웹 워커" />
@@ -678,7 +674,8 @@
     <MESSAGE value="[한권자바] Servlet - servlet 수행 흐름 확인 (init, service, destroy 메서드 override)" />
     <MESSAGE value="[한권자바] Servlet - servlet 객체 상태 및 수행 흐름 확인" />
     <MESSAGE value="[한권자바] Servlet - request 정보 추출" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Servlet - request 정보 추출" />
+    <MESSAGE value="[한권자바] Servlet - response 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Servlet - response 처리" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

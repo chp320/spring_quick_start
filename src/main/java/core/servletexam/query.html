@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query String</title>
+</head>
+<body>
+    <h1>링크로 서블릿 요청하기</h1>
+    <a href="http://localhost:8080/core/QueryServlet?guestName=둘리&num=11">둘리</a><br>
+    <a href="http://localhost:8080/core/QueryServlet?guestName=또치&num=22">또치</a><br>
+    <a href="http://localhost:8080/core/QueryServlet?guestName=듀크&num=33">
+        <img src="/core/images/duke3.png" width="100" height="100">
+    </a>
+    <hr>
+    <h1>이름과 좋아하는 숫자 전달하기(GET)</h1>
+    <form method="get" action="http://localhost:8080/core/QueryServlet">
+        <input type="text" name="guestName" placeholder="이름을 입력하세요" required><br>
+        <input type="number" name="num" placeholder="좋아하는 숫자를 입력하세요" required><br>
+        <input type="submit" value="요청(GET)">
+    </form>
+</body>
+</html>
