@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 /**
  * 목적: name과 value 쌍으로 구성되는 Query String을 추출할 수 있다.
  */
-@WebServlet(name = "QueryServlet", value = "/QueryServlet")
+@WebServlet( {"/queryget", "/querypost"} )
 public class QueryServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -27,8 +27,16 @@ public class QueryServlet extends HttpServlet {
         out.close();
     }
 
+    /**
+     * POST 방식으로 전달되는 Query String 추출 기능의 doPost() 메서드 추가
+     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        /* POST 방식은 query string 추출 시 한글이 깨지기 때문에, 반드시 아래 방법으로 한글 처리 필수!
+           -> HttpServletRequest 에서 제공하는 setCharacterEncoding("utf-8") 호출!
+         */
+        request.setCharacterEncoding("utf-8");
+        doGet(request, response);   // 본래 POST 방식으로 요청 시 doPost()가 호출되지만, 한글 처리 후 바로 doGet()을 호출하면 GET/POST 방식 구분하지 않고 지원 가능!
     }
 }
