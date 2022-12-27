@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] Servlet - 요청 재지정(Forward를 사용한 요청 재지정)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/RedirectServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_01.jsp" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 첫 예제">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_02.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_03.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/servletexam/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/servletexam/output.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,14 +283,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="24787000" />
-    </task>
-    <task id="LOCAL-00069" summary="[한권자바] CSS3 study">
-      <created>1665930479996</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1665930479996</updated>
+      <workItem from="1671641526272" duration="25306000" />
     </task>
     <task id="LOCAL-00070" summary="[한권자바] CSS3 study">
       <created>1665932311043</created>
@@ -629,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672145829353</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="[한권자바] jsp - 첫 예제">
+      <created>1672149913082</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1672149913082</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] JavaScript study - 롤링 이미지 구현(js이용)" />
     <MESSAGE value="[한권자바] JavaScript study - 막대 그래프 그리기(canvas API 활용)" />
     <MESSAGE value="[한권자바] JavaScript study - 모달팝업/그래프(using canvas)/css 적용" />
     <MESSAGE value="[한권자바] Ajax study - non ajax&amp;ajax" />
@@ -672,7 +670,8 @@
     <MESSAGE value="[한권자바] Servlet - HttpSession 객체를 이용해서 브라우저별 요청 값 유지" />
     <MESSAGE value="[한권자바] Servlet - HttpSession 객체를 이용한 상태 정보 확인 및 제어" />
     <MESSAGE value="[한권자바] Servlet - 요청 재지정(Forward를 사용한 요청 재지정)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] Servlet - 요청 재지정(Forward를 사용한 요청 재지정)" />
+    <MESSAGE value="[한권자바] jsp - 첫 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 첫 예제" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
