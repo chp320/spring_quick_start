@@ -5,13 +5,22 @@
     <title>Lotto</title>
 </head>
 <body>
-  <h2 id="title">로또 번호를 맞춰보세요!!!</h2>
-  <hr>
-  <!-- 응모버튼이 클릭되면 서블릿을 get 방식으로 요청한다. -->
-  <form method="get" action="http://localhost:8080/core/lotto">
-    1부터 10까지의 숫자를 입력 하세요 :
-    <input name="guess" type="number" min="1" max="10" required>
-    <input id="img" type="image" src="../images/clover.png" width="30px">
-  </form>
+    <h2 id="title">로또 번호를 맞춰보세요!!!</h2>
+    <hr>
+    <!-- 응모버튼이 클릭되면 서블릿을 get 방식으로 요청한다. -->
+    <form method="get" action="http://localhost:8080/core/lotto">
+        1부터 10까지의 숫자를 입력 하세요 :
+        <input name="guess" type="number" min="1" max="10" required>
+        <input id="img" type="image" src="../images/clover.png" width="30px">
+    </form>
+
+    <hr>
+
+    <h2>응모횟수 3번까지 가능한 로또!</h2>
+    <form method="get" action="http://localhost:8080/core/lottoLimit">
+        1부터 10까지의 숫자를 입력 하세요 :
+        <input name="guess" type="number" min="1" max="10" required>
+        <input id="img" type="image" src="../images/clover.png" width="30px">
+    </form>
 </body>
 </html>
