@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 구현요소 중 스크립팅 확인">
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_03.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_03.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_07.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,14 +282,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="25380000" />
-    </task>
-    <task id="LOCAL-00071" summary="[한권자바] CSS3 study - navigation, dropdown 적용">
-      <created>1666021357912</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1666021357912</updated>
+      <workItem from="1671641526272" duration="26473000" />
     </task>
     <task id="LOCAL-00072" summary="[한권자바] CSS3 study - 레이아웃 적용">
       <created>1666199109552</created>
@@ -626,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672150463953</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="[한권자바] jsp - 구현요소 중 스크립팅 확인">
+      <created>1672150493454</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1672150493454</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
