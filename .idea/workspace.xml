@@ -9,9 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 스크립트 태그 중 표현식 태그">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_08.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_09.jsp" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 스크립트 태그 중 수행문/선언문 태그">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/errorPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_10.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_11.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_12.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_13.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_14.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_15.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_16.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_17.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_18.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_19.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/part1.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/part2.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,14 +295,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="29227000" />
-    </task>
-    <task id="LOCAL-00073" summary="[한권자바] CSS3 study - 반응형 레이아웃 적용">
-      <created>1666200995933</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1666200995933</updated>
+      <workItem from="1671641526272" duration="37343000" />
     </task>
     <task id="LOCAL-00074" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기">
       <created>1666873695860</created>
@@ -628,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672152084656</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="[한권자바] jsp - 스크립트 태그 중 수행문/선언문 태그">
+      <created>1672195615799</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1672195615799</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] Ajax study - non ajax&amp;ajax" />
     <MESSAGE value="[한권자바] Ajax study - non ajax&amp;ajax ajax타겟소스 jsp/html 변경해서 테스트" />
     <MESSAGE value="[한권자바] Ajax study - Ajax 구현 이론 정리" />
     <MESSAGE value="[한권자바] Ajax study - XML 응답" />
@@ -671,7 +682,8 @@
     <MESSAGE value="[한권자바] jsp - 첫 예제" />
     <MESSAGE value="[한권자바] jsp - 구현요소 중 스크립팅 확인" />
     <MESSAGE value="[한권자바] jsp - 스크립트 태그 중 표현식 태그" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 스크립트 태그 중 표현식 태그" />
+    <MESSAGE value="[한권자바] jsp - 스크립트 태그 중 수행문/선언문 태그" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 스크립트 태그 중 수행문/선언문 태그" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,0 +1,16 @@
+<%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Insert title here</title>
+</head>
+<body>
+	<%-- JSP 파일에 include 되는 용도로만 사용되는 JSP 인 경우,
+		 jsp 라는 확장자 보다는 jspf 라는 확장자를 붙히는 것을 권고한다.
+		 jspf: JSP Fragment 라는 의미로 jsp 의 소스 코드 조각을 의미한다. --%>
+	<div>
+		include 지시자에 의해 포함된 내용입니다.
+	</div>
+</body>
+</html>
