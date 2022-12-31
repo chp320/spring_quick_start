@@ -9,16 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 지시자 태그 및 내장객체 확인">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspbean/CountVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspbean/Today.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/adminPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_20.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_21.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_22.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_23.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/userPage.jsp" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 표준 액션 태그 작성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspbean/BookerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_24.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_25.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_26.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_27.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_28.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_29.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -291,14 +289,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="44179000" />
-    </task>
-    <task id="LOCAL-00075" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기 (이미지추가)">
-      <created>1666873742575</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1666873742575</updated>
+      <workItem from="1671641526272" duration="52897000" />
     </task>
     <task id="LOCAL-00076" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)">
       <created>1666873818224</created>
@@ -636,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672240151146</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="[한권자바] jsp - 표준 액션 태그 작성">
+      <created>1672367381293</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1672367381293</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] Ajax study - Ajax 구현 이론 정리" />
     <MESSAGE value="[한권자바] Ajax study - XML 응답" />
     <MESSAGE value="내장 카메라 모듈 호출 기능 테스트" />
     <MESSAGE value="do it 자바 - 문서 추가" />
@@ -679,7 +676,8 @@
     <MESSAGE value="[한권자바] jsp - 스크립트 태그 중 표현식 태그" />
     <MESSAGE value="[한권자바] jsp - 스크립트 태그 중 수행문/선언문 태그" />
     <MESSAGE value="[한권자바] jsp - 지시자 태그 및 내장객체 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 지시자 태그 및 내장객체 확인" />
+    <MESSAGE value="[한권자바] jsp - 표준 액션 태그 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 표준 액션 태그 작성" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
