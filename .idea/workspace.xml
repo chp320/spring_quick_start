@@ -9,15 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 표준 액션 태그 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspbean/BookerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_24.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_25.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_26.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_27.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_28.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_29.jsp" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 액션 태그 및 EL식">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspbean/LanguageInfoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_30.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_31.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_32.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_33.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_34.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_35.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_36.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_37.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/src/main/java/core/images",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/src/WEB-INF/lib",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
@@ -80,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/src/main/java/core/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/src/main/java/core/images" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/cameraTest" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/chapter06/image" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject/image" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter03/excercise03/WebProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/core/servletexam" />
@@ -289,14 +293,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="52897000" />
-    </task>
-    <task id="LOCAL-00076" summary="[한권자바] CSS3 study - 실습2 Home화면 만들기 (디렉토리구조 변경)">
-      <created>1666873818224</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1666873818224</updated>
+      <workItem from="1671641526272" duration="62307000" />
     </task>
     <task id="LOCAL-00077" summary="[한권자바] CSS3 study - 실습2 로그인 화면 만들기">
       <created>1666875953355</created>
@@ -634,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672367381293</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="[한권자바] jsp - 액션 태그 및 EL식">
+      <created>1672497333144</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1672497333144</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +656,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] Ajax study - XML 응답" />
     <MESSAGE value="내장 카메라 모듈 호출 기능 테스트" />
     <MESSAGE value="do it 자바 - 문서 추가" />
     <MESSAGE value="[한권자바] Ajax - Ajax" />
@@ -677,7 +680,8 @@
     <MESSAGE value="[한권자바] jsp - 스크립트 태그 중 수행문/선언문 태그" />
     <MESSAGE value="[한권자바] jsp - 지시자 태그 및 내장객체 확인" />
     <MESSAGE value="[한권자바] jsp - 표준 액션 태그 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 표준 액션 태그 작성" />
+    <MESSAGE value="[한권자바] jsp - 액션 태그 및 EL식" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 액션 태그 및 EL식" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
