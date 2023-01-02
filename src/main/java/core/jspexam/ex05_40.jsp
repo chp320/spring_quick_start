@@ -35,11 +35,11 @@
 							종점 : <x:out select="edStationNm" /> <br>
 							라우트아이디 : <x:out select="busRouteId" /> <br>
 							회사정보 : <x:out select="corpNm" /> <br>
-							배차간격 : <x:out select="term" /> <br>
+							배차간격 : <x:out select="term" />분 <br>
 							<c:set var="outFlag" value="true" />
 						</x:if>
 					</x:forEach>
-					<c:if test="${ !empty outFlag }">
+					<c:if test="${ empty outFlag }">
 						<h3>${ param.num }번 버스의 정보는 존재하지 않아요... </h3>
 					</c:if>
 				</x:if>
