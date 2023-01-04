@@ -9,11 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - JSTL 의 core 라이브러리 확인">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_38.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_39.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/ex05_40.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/jspexam/student.xml" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/newsjson.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/sample.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/sample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/images/duke_luau.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +37,10 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Jsp File" />
-        <option value="HTML File" />
         <option value="Class" />
         <option value="Tag Library Descriptor" />
         <option value="JSP file(HTML5)" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/src/WEB-INF/lib",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/biz/src/main/java/core/ajaxexam",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
@@ -78,18 +86,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/core/ajaxexam" />
+      <recent name="$PROJECT_DIR$/src/main/java/core/images" />
       <recent name="$PROJECT_DIR$/src/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/src/main/java/core/WEB-INF/lib" />
-      <recent name="$PROJECT_DIR$/src/main/java/core/images" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/cameraTest" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter06/image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/core/images" />
+      <recent name="$PROJECT_DIR$/src/main/java/core/ajaxexam" />
       <recent name="$PROJECT_DIR$/src/main/java/core/servletexam" />
       <recent name="$PROJECT_DIR$/src/main/java/core/" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/do_it_Java_documents" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/chapter02" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/excercise02/project1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.doit.java.inner.sec03_localinnerclass.EX01_AccessMemberAndLocalVariable" />
@@ -287,21 +295,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="67883000" />
-    </task>
-    <task id="LOCAL-00078" summary="[한권자바] CSS3 study - 실습2 로그인 화면 만들기 (css 적용)">
-      <created>1666877180090</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1666877180090</updated>
-    </task>
-    <task id="LOCAL-00079" summary="[한권자바] CSS3 study - excercise02 디렉토리 구조 변경">
-      <created>1666877580355</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1666877580355</updated>
+      <workItem from="1671641526272" duration="80782000" />
     </task>
     <task id="LOCAL-00080" summary="[한권자바] JavaScript study">
       <created>1666888045319</created>
@@ -632,7 +626,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672585824319</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="[한권자바] jsp - JSTL 의 xml 라이브러리 확인">
+      <created>1672591317787</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1672591317787</updated>
+    </task>
+    <task id="LOCAL-00128" summary="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱">
+      <created>1672674715491</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1672674715491</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,8 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="do it 자바 - 문서 추가" />
-    <MESSAGE value="[한권자바] Ajax - Ajax" />
     <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트" />
     <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트 (onload 속성 사용)" />
     <MESSAGE value="[한권자바] Ajax - json 파일 로딩 테스트 (onreadystatechnage 속성 사용)" />
@@ -675,7 +681,9 @@
     <MESSAGE value="[한권자바] jsp - 표준 액션 태그 작성" />
     <MESSAGE value="[한권자바] jsp - 액션 태그 및 EL식" />
     <MESSAGE value="[한권자바] jsp - JSTL 의 core 라이브러리 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - JSTL 의 core 라이브러리 확인" />
+    <MESSAGE value="[한권자바] jsp - JSTL 의 xml 라이브러리 확인" />
+    <MESSAGE value="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

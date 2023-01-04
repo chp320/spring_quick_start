@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax테스트 - 이진 파일 응답받기</title>
+</head>
+<body>
+  <!-- XMLHttpRequest 객체의 responseType 속성에 'blob' 타입 정보 설정하면 바이너리 형식(이미지, 동영상 등) 문서 처리 가능!
+      responseType : Ajax 통신을 통해서 서버로부터 응답받고자 하는 데이터 타입을 설정하는 속성. arraybuffer, blob, document, json, text 지정 가능 -->
+  <h2 onclick="getImage();">이 행을 클릭해요. Ajax로 이미지를 요청하고 출력해요...</h2>
+
+  <script>
+    function getImage() {
+      var xhr = new XMLHttpRequest();
+      xhr.responseType = 'blob';
+
+      xhr.onload = function () {
+        if (this.status == 200) {
+          var blob = xhr.response;
+          var img = document.createElement('img');  /* HTML에 img 태그 요소 추가 */
+          img.width = 100;
+          img.height = 100;
+          /* 이미지에 대한 blob 객체로 가상 URL 형식의 문자열(객체URL)을 화면에 렌더링 후, 객체 URL을 메모리에서 해제 (for 메모리 효율 고려) */
+          img.onload = function () {
+            URL.revokeObjectURL(img.src);
+          };
+          img.src = URL.createObjectURL(blob);
+          document.body.appendChild(img);
+        }
+      };
+      xhr.open('GET', '../images/duke_luau.png', true) ;
+      xhr.send();
+    }
+  </script>
+</body>
+</html>
