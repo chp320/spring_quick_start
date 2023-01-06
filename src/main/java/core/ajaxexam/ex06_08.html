@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax테스트(파일업로드)</title>
+</head>
+<body>
+    <h1>Ajax 로 입력폼 전송 테스트</h1>
+    <form id="inputForm">
+      작성자 <input type="text" name="theAuthor"><br>
+      나이 <input type="text" name="theAge"><br>
+      파일 <input type="file" name="theFile"><br>
+      <input type="submit" value="업로드" id="submitb">
+    </form>
+    <output></output>
+
+    <script>
+      window.addEventListener("load", function () {
+        document.getElementById("submitb").onclick = handleButtonPress ;
+      }) ;
+
+      var xhr ;
+      var form ;
+
+      function handleButtonPress(e) {
+        e.preventDefault();   // default 이벤트 핸들러 해제
+        xhr = new XMLHttpRequest();
+        form = document.querySelector("#inputForm");  // id가 inputForm인 요소를 찾는다.
+        var formData = new FormData(form);  // formData 객체 생성 - 앞에서 찾은 inputForm 요소를 전달
+        xhr.onload = handleResponse;
+        xhr.open("POST", "/core/upload", true);
+        xhr.send(formData);
+      }
+
+      function handleResponse() {
+        document.querySelector("output").innerHTML += "<hr>" + xhr.responseText;  // Ajax 호출 후 응답받은 내용을 output 요소에 add한다.
+      }
+    </script>
+</body>
+</html>

@@ -9,19 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/newsjson.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/sample.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/sample.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/images/duke_luau.png" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - Ajax프로그래밍 (GET/POST방식)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_08.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,14 +284,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="80782000" />
-    </task>
-    <task id="LOCAL-00080" summary="[한권자바] JavaScript study">
-      <created>1666888045319</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1666888045319</updated>
+      <workItem from="1671641526272" duration="85206000" />
     </task>
     <task id="LOCAL-00081" summary="[한권자바] JavaScript study - 표준객체">
       <created>1666961301496</created>
@@ -640,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672674715491</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="[한권자바] jsp - Ajax프로그래밍 (GET/POST방식)">
+      <created>1672841660440</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1672841660441</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트" />
     <MESSAGE value="[한권자바] Ajax - XML 파일 로딩 테스트 (onload 속성 사용)" />
     <MESSAGE value="[한권자바] Ajax - json 파일 로딩 테스트 (onreadystatechnage 속성 사용)" />
     <MESSAGE value="[한권자바] Servlet - pom.xml 수정" />
@@ -683,7 +671,8 @@
     <MESSAGE value="[한권자바] jsp - JSTL 의 core 라이브러리 확인" />
     <MESSAGE value="[한권자바] jsp - JSTL 의 xml 라이브러리 확인" />
     <MESSAGE value="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - 공공데이터 활용한 xml 문서 파싱" />
+    <MESSAGE value="[한권자바] jsp - Ajax프로그래밍 (GET/POST방식)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - Ajax프로그래밍 (GET/POST방식)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
