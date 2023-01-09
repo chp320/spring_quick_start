@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax테스트</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid black;
+      }
+      td {
+        border: 1px solid black;
+        padding-left: 5px;
+      }
+    </style>
+</head>
+<body>
+    <h1>서버(Proxy Server) 프로그램을 통해서 SOP(Same Origin Policy) 문제를 해결</h1>
+    <p>
+      <li>오리진이 다른 사이트에서 Ajax 통신으로 콘텐츠를 읽어오려면, 오리진 서버에 "대신 요청"하고 응답받아서 "전달"하는 서버 프로그램 이용 필요</li>
+      <li>서버 프로그램은 서버에서 수행되는 프로그램이며 Ajax 통신을 하는 것이 아니기 때문에 콘텐츠를 받아올 수 있음! -> Proxy Server 프로그램</li>
+      <li>여기서는 rss.jsp 파일을 통해서 오리진이 다른 사이트(기상청)에 요청/응답 후 필요한 부분 추출하여 HTML 문서 생성함</li>
+    </p>
+    <hr>
+    <h2 style="text-align: center">실시간 날씨 정보입니다.</h2>
+    <div id="output" style="width:350px; margin: 10px auto"></div>
+
+    <script>
+      window.onload = function () {
+        var xhr = new XMLHttpRequest();
+        // XMLHttpRequest() 가 수행된 이후 결과 처리
+        xhr.onload = function (event) {
+          if (xhr.status == 200) {
+            var str = xhr.responseText;
+            alert("str: " + str);
+            var target = document.getElementById('output');
+            target.innerHTML = str;
+          }
+        } ;
+        xhr.open('GET', 'content/rss.jsp', true);   // content/rss.jsp 를 비동기, GET 방식으로 요청하는 내용을 XMLHttpRequest 객체에 설정
+        xhr.send();
+      } ;
+    </script>
+</body>
+</html>
