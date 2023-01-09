@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax테스트(drag&drop)</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/jejugothic.css">
+    <style>
+      * {
+        font-family: 'Jeju Gothic', serif;
+        font-size: 17px;
+      }
+      h1 {
+        font-size: 25px;
+      }
+      #databox {
+          width: 400px;
+          height: 200px;
+          margin: 10px;
+          padding: 10px;
+          border: 1px solid #999999;
+          border-radius: 10px;
+      }
+    </style>
+</head>
+<body>
+    <section id="databox">
+      <output> 업로드하려는 파일을 드래그하여 여기 드롭하세요....</output>
+    </section>
+
+    <script>
+        var databox;
+
+        function initiate() {
+            databox = document.getElementById('databox');   // databox라는 id를 가진 엘리먼트에 대한 DOM 객체 추출
+            databox.addEventListener('dragover', function (e) {
+                e.preventDefault();     // dragover 이벤트의 기본 이벤트 핸들러 해제
+            });
+            databox.addEventListener('drop', dropped);      // drop 이벤트 발생 시 dropped 함수 수행
+        }
+
+        function dropped(e) {
+            alert("dropped 호출!!!");
+            e.preventDefault();     // 기본 이벤트 핸들러 해제
+            var files = e.dataTransfer.files;   // 윈도우 탐색기에서 드래그하여 이 페이지의 <section>태그 영역에 드롭되 파일들의 리스트 추출
+            var result = "";
+            var data = new FormData();
+            for (var f = 0; f < files.length; f++) {
+                data.append('myuploadfile' + f, files[f]);
+            }
+
+            var xhr = new XMLHttpRequest();
+            xhr.addEventListener('load', function () {
+                if (xhr.status == 200) {
+                    result = "업로드 완료!!";
+                } else {
+                    result = "업로드 실패!!";
+                }
+                document.querySelector("output").textContent = result;
+            });
+            xhr.open("POST", "/core/upload", true);
+            xhr.send(data);
+        }
+        window.addEventListener('load', initiate);
+    </script>
+</body>
+</html>
