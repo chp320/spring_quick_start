@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>카카오 주소-좌표 변환 예제</title>
+</head>
+<body>
+    <h2>주소를 입력받아 지도를 출력하는 프로그램</h2>
+    <button id="btn">주소 입력</button>
+
+    <p>
+      <em class="link">
+        <a href="javascript:void(0);" onclick="window.open('http://fiy.daum.net/fiy/map/CsGeneral.daum', '_blank', 'width=981,height=650')">
+          혹시 주소 결과가 잘못 나오는 경우에는 여기에 제보해주세요.
+        </a>
+      </em>
+    </p>
+
+    <div id="map" style="width: 100%; height: 350px;"></div>
+
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=43ebc5d1e5e6fa67eb23c5775c01b5f8&libraries=services"></script>
+    <script>
+
+        var lat;    // 위도
+        var lng;    // 경도
+        var address;    // 주소
+        var coords; // 지도의 중심 좌표
+
+        var mapContainer = document.getElementById('map');
+        var mapOption;
+
+        // 주소-좌표 변환 객체 생성
+        var geocoder = new kakao.maps.services.Geocoder();
+
+        // 지도 출력
+        function printMap() {
+            console.log("run printMap method");
+            mapOption = {
+                center: coords,
+                level: 3
+            } ;
+
+            // 지도 생성
+            var map = new kakao.maps.Map(mapContainer, mapOption);
+        }
+
+        function getLatLng() {
+            // 입력받은 주소의 좌표(위도,경도) 검색
+            console.log("run getLatLng method");
+            geocoder.addressSearch(addr, function (result, status) {
+                // 정상적으로 검색 완료
+                if (status == kakao.maps.services.Status.OK) {
+                    lat = result[0].y;
+                    lng = result[0].x;
+                    console.log("lat: " + lat + ", lng: " + lng);
+
+                    coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+                    console.log("coords: " + coords);
+                }
+
+            });
+        }
+
+      // var mapOption = {
+      //           center: new kakao.maps.LatLng(33.450701, 126.570667),   // 지도의 중심 좌표
+      //           level: 3  // 지도의 확대 레벨
+      //         } ;
+      //
+      // // 지도 생성
+      // var map = new kakao.maps.Map(mapContainer, mapOption);
+
+      // 주소-좌표 변환 객체 생성
+      var geocoder = new kakao.maps.services.Geocoder();
+
+      // 주소로 좌표 검색
+      geocoder.addressSearch('제주특별자치도 제주시 첨단로 242', function (result, status) {
+        // 정상적으로 검색 완료
+        if (status == kakao.maps.services.Status.OK) {
+          var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+          console.log("coords: " + coords);
+        }
+      });
+
+      var lat;  // 위도
+      var lng;  // 경도
+      var addr; // 찾을 주소
+      function getaddress() {
+        addr = window.prompt("주소를 입력하세요");
+        console.log("addr: " + addr);
+        // getlatlng();
+        getLatLng();
+        printMap();
+      }
+
+      function getlatlng() {
+        console.log("call getlatlng method!");
+        geocoder.addressSearch(addr, function (result, status) {
+          // 정상적으로 검색 완료
+          if (status == kakao.maps.services.Status.OK) {
+            var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+            console.log("coords: " + coords);
+
+            var mapContainer = document.getElementById('map')
+            var mapOption = {
+              center: new kakao.maps.LatLng(result[0].y, result[0].x),   // 지도의 중심 좌표
+              level: 3  // 지도의 확대 레벨
+            } ;
+
+            // 지도 생성
+            var map = new kakao.maps.Map(mapContainer, mapOption);
+          }
+        });
+      }
+
+      function clickme() {
+        document.getElementById('btn').onclick = getaddress;
+      }
+
+      window.onload = clickme ;
+    </script>
+</body>
+</html>

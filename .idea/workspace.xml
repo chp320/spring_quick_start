@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - Ajax프로그래밍 (파일업로드, drag&amp;drop)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/content/rss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_10.html" afterDir="false" />
+    <list default="true" id="4e9d34bc-32de-447c-9bda-8125c4e07f33" name="Changes" comment="[한권자바] jsp - Ajax프로그래밍 (Proxy Server 구성을 통한 SOP 문제 해결)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_11_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_11_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/ajaxexam/ex06_11_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +31,8 @@
         <option value="Jsp File" />
         <option value="Class" />
         <option value="Tag Library Descriptor" />
-        <option value="HTML File" />
         <option value="JSP file(HTML5)" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -285,14 +287,7 @@
       <workItem from="1671555415579" duration="141000" />
       <workItem from="1671555628414" duration="5000" />
       <workItem from="1671555640838" duration="3670000" />
-      <workItem from="1671641526272" duration="92654000" />
-    </task>
-    <task id="LOCAL-00083" summary="[한권자바] JavaScript study - DOM (근거리 선택자)">
-      <created>1667048923245</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1667048923245</updated>
+      <workItem from="1671641526272" duration="107928000" />
     </task>
     <task id="LOCAL-00084" summary="[한권자바] JavaScript study - 이벤트 모델 및 JSON">
       <created>1667136131097</created>
@@ -630,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673271002842</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="[한권자바] jsp - Ajax프로그래밍 (Proxy Server 구성을 통한 SOP 문제 해결)">
+      <created>1673274446379</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1673274446379</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[한권자바] Servlet - pom.xml 수정" />
     <MESSAGE value="[한권자바] Servlet - servlet 수행 흐름 확인 (init, service, destroy 메서드 override)" />
     <MESSAGE value="[한권자바] Servlet - servlet 객체 상태 및 수행 흐름 확인" />
     <MESSAGE value="[한권자바] Servlet - request 정보 추출" />
@@ -673,7 +674,8 @@
     <MESSAGE value="[한권자바] jsp - Ajax프로그래밍 (GET/POST방식)" />
     <MESSAGE value="[한권자바] jsp - Ajax프로그래밍 (파일업로드)" />
     <MESSAGE value="[한권자바] jsp - Ajax프로그래밍 (파일업로드, drag&amp;drop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - Ajax프로그래밍 (파일업로드, drag&amp;drop)" />
+    <MESSAGE value="[한권자바] jsp - Ajax프로그래밍 (Proxy Server 구성을 통한 SOP 문제 해결)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[한권자바] jsp - Ajax프로그래밍 (Proxy Server 구성을 통한 SOP 문제 해결)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/biz$TVUser.ic" NAME="TVUser Coverage Results" MODIFIED="1659370214120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

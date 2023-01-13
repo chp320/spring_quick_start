@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax테스트</title>
+    <script src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=SODQ1u4BjbceyZrfTfHb"></script>
+    <!-- services 라이브러리 불러오기 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=43ebc5d1e5e6fa67eb23c5775c01b5f8&libraries=services"></script>
+    <!-- (네이버) 주소-좌표 검색 API 검색 -->
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=SODQ1u4BjbceyZrfTfHb&submodules=geocoder"></script>
+</head>
+<body>
+    <h2>주소를 입력받아 지도를 출력하는 프로그램</h2>
+    <button id="btn">주소 입력</button>
+    <br><br>
+    <!-- 웹 페이지에 지도를 삽입할 DOM 요소 지정 -->
+    <div id="map" style="width: 700px; height: 450px;"></div>
+
+    <script>
+        function navermap() {
+            alert("navermap 호출!");
+            // 지도 속성 초기화
+            var lat_p = lat;
+            var long_p = lng;
+            // 지도 옵션 설정
+            var mapOptions = {
+                center: new naver.maps.LatLng(lat_p, long_p),
+                zoom: 10,
+                minZoom: 1,
+                zoomControl: true,
+                zoomControlOptions: {
+                    position: naver.maps.Position.TOP_RIGHT
+                }
+            } ;
+            // 지도 생성하기
+            var map = new naver.maps.Map('map', mapOptions);    // Map 클래스는 지도 표현하는 클래스이며, new 키워드 통해서 객체 생성
+            new naver.maps.Marker({
+                position: new naver.maps.LatLng(lat_p, long_p),
+                map: map
+            })
+        }
+
+        var lat, lng, addr;
+        function inputaddress() {
+            addr = window.prompt("주소를 입력하세요");
+            console.log("addr: " + addr);
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function (event) {
+                if (xhr.status == 200) {
+                    var str = xhr.responseText;
+                    console.log("str: " + str);
+                    var data = JSON.parse(str);
+                    console.log("data: " + data);
+                    lat = data.results[0].geometry.location.lat;
+                    lng = data.results[0].geometry.location.lng;
+                    console.log("lat: " + lat + ", lng: " + lng);
+                    document.getElementById('map').innerHTML = "";
+                    navermap();
+                }
+            } ;
+            var addr = 'http://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(addr) + '&key=AlzaSyDvisLrk-yYGYZfPIZITTYM7iFk-JbF1vc&language=ko';
+            xhr.open('GET', addr, true);
+            xhr.send();
+        }
+
+        function getnaveraddress() {
+            addr = window.prompt("[getnaveraddress]주소를 입력하세요.");
+            console.log("[getnaveraddress]addr: " + addr);
+
+            // 주소 -> 좌표검색(geocode) API호출
+            naver.maps.Service.geocode({
+                address: '불정로 6'
+            }, function (status, response) {
+                if (status !== naver.maps.Service.Status.OK) {
+                    return alert('Something worong!');
+                }
+                var result = response.result,
+                    items = result.items;
+                console.log("result: " + result + ", itmes: " + items);
+            });
+        }
+
+
+        function clickme() {
+            // document.getElementById('btn').onclick = inputaddress;
+            document.getElementById('btn').onclick = getnaveraddress;
+        }
+        window.onload = clickme;
+    </script>
+</body>
+</html>
